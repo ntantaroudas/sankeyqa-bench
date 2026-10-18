@@ -1,0 +1,365 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Specialist",
+  "years_experience": 20,
+  "industry": "Healthcare",
+  "age_group": "41-50",
+  "target_role": "Executive",
+  "n_profiles": 240,
+  "max_nodes": 6
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 240,
+ "nodes": [
+  [
+   {
+    "label": "Healthcare",
+    "count": 240
+   }
+  ],
+  [
+   {
+    "label": "Healthcare",
+    "count": 200
+   },
+   {
+    "label": "Public Sector",
+    "count": 14
+   },
+   {
+    "label": "Consulting",
+    "count": 11
+   },
+   {
+    "label": "Education",
+    "count": 10
+   },
+   {
+    "label": "IT Services",
+    "count": 5
+   }
+  ],
+  [
+   {
+    "label": "Healthcare",
+    "count": 166
+   },
+   {
+    "label": "Education",
+    "count": 23
+   },
+   {
+    "label": "Public Sector",
+    "count": 22
+   },
+   {
+    "label": "Consulting",
+    "count": 20
+   },
+   {
+    "label": "IT Services",
+    "count": 9
+   }
+  ],
+  [
+   {
+    "label": "Healthcare",
+    "count": 113
+   },
+   {
+    "label": "Education",
+    "count": 40
+   },
+   {
+    "label": "Public Sector",
+    "count": 38
+   },
+   {
+    "label": "Consulting",
+    "count": 33
+   },
+   {
+    "label": "IT Services",
+    "count": 16
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Healthcare",
+   "target": "Healthcare",
+   "count": 200
+  },
+  {
+   "stage": 0,
+   "source": "Healthcare",
+   "target": "Public Sector",
+   "count": 14
+  },
+  {
+   "stage": 0,
+   "source": "Healthcare",
+   "target": "Consulting",
+   "count": 11
+  },
+  {
+   "stage": 0,
+   "source": "Healthcare",
+   "target": "Education",
+   "count": 10
+  },
+  {
+   "stage": 0,
+   "source": "Healthcare",
+   "target": "IT Services",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Healthcare",
+   "count": 162
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Public Sector",
+   "count": 13
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Education",
+   "count": 11
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Consulting",
+   "count": 10
+  },
+  {
+   "stage": 1,
+   "source": "Education",
+   "target": "Education",
+   "count": 9
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 8
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 8
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "IT Services",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Education",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Healthcare",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Healthcare",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Education",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Healthcare",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Healthcare",
+   "count": 104
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Education",
+   "count": 20
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Public Sector",
+   "count": 18
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Education",
+   "count": 17
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Consulting",
+   "count": 15
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 15
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 13
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "IT Services",
+   "count": 9
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Healthcare",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Consulting",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Education",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Healthcare",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Public Sector",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Healthcare",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Healthcare",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Education",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "IT Services",
+   "count": 1
+  }
+ ]
+}
