@@ -1,0 +1,64 @@
+{
+ "n_cohorts": 600,
+ "n_train_cohorts": 400,
+ "n_test_cohorts": 200,
+ "n_robust_cohorts": 60,
+ "n_images": 1260,
+ "n_styles": 12,
+ "n_questions": 6560,
+ "questions_by_type": {
+  "top_node": 600,
+  "node_count": 600,
+  "node_value": 600,
+  "share_pct": 600,
+  "max_outflow": 600,
+  "link_compare": 600,
+  "greedy_path": 560,
+  "flow_exists": 600,
+  "link_value": 600,
+  "trend": 600,
+  "total": 600
+ },
+ "questions_by_split": {
+  "train": 4372,
+  "test": 2188
+ },
+ "cohorts_by_map_type": {
+  "role": 358,
+  "industry": 242
+ },
+ "qtypes": [
+  "top_node",
+  "node_count",
+  "node_value",
+  "share_pct",
+  "max_outflow",
+  "link_compare",
+  "greedy_path",
+  "flow_exists",
+  "link_value",
+  "trend",
+  "total"
+ ],
+ "visible_nodes_per_stage_mean": 5.852777777777778,
+ "visible_nodes_per_stage_min": 3,
+ "visible_nodes_per_stage_max": 8,
+ "links_per_diagram_mean": 51.52333333333333,
+ "links_per_diagram_min": 20,
+ "links_per_diagram_max": 99,
+ "profiles_per_cohort_min": 60,
+ "profiles_per_cohort_max": 1200,
+ "answer_distribution": {
+  "flow_exists": {
+   "no": 227,
+   "yes": 373
+  },
+  "trend": {
+   "increase": 308,
+   "decrease": 285,
+   "stay the same": 7
+  }
+ },
+ "seed": 2026,
+ "seconds": 413.73920726776123
+}
