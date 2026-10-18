@@ -9,7 +9,7 @@ House style: plain language, no colons or semicolons in the text. Every number c
 
 ## Authors and affiliations
 
-Nikolaos D. Tantaroudas^1*^, Andrew J. McCracken^2^, Ilias Karachalios^3^, Evangelos Papatheou^4^, Vasileios Pastrikakis^5^
+Nikolaos D. Tantaroudas^1*^, Andrew J. McCracken^2^, Ilias Karachalios^3^ and Evangelos Papatheou^4^
 
 ^1^Institute of Communication and Computer Systems (ICCS), National Technical University of Athens, 9 Iroon Polytechniou Str., 15773 Zografou, Athens, Greece
 
@@ -19,7 +19,6 @@ Nikolaos D. Tantaroudas^1*^, Andrew J. McCracken^2^, Ilias Karachalios^3^, Evang
 
 ^4^Exeter Small-Scale Robotics Laboratory, Engineering Department, University of Exeter, Exeter, EX4 4QF, United Kingdom
 
-^5^CVCOSMOS Ltd, 1 Barnfield Crescent, Exeter, EX1 1QT, United Kingdom
 
 \*Correspondence to [nikolaos.tantaroudas@iccs.gr](mailto:nikolaos.tantaroudas@iccs.gr)
 
@@ -64,7 +63,7 @@ This article provides such a set and the measurements. Because a Sankey diagram 
 - When a vision-language model is fine-tuned, does a small set of diverse diagrams help more than random diagrams under the same training budget, and how much do more diagrams help?
 - Is it better for an assistant to read the picture or to read the table that the picture was drawn from?
 
-The study needs no participants. It uses simulated career cohorts instead of the CVCOSMOS database, so that no personal data are involved and every number behind every diagram is known. All models are small enough to run on an ordinary laptop processor, which suits a headset application whose processing has to be cheap. The contributions are an open benchmark, SankeyQA, with its generator, 6,560 questions and 1,260 images, an evaluation of five models and two simple baselines on 875 test questions, a test of eleven drawing styles and a controlled fine-tuning experiment. The code is on GitHub and the data are archived on Zenodo [@sankeyqadata].
+The study needs no participants. It uses simulated career cohorts instead of the career database of the platform, so that no personal data are involved and every number behind every diagram is known. All models are small enough to run on an ordinary laptop processor, which suits a headset application whose processing has to be cheap. The contributions are an open benchmark, SankeyQA, with its generator, 6,560 questions and 1,260 images, an evaluation of five models and two simple baselines on 875 test questions, a test of eleven drawing styles and a controlled fine-tuning experiment. The code is on GitHub and the data are archived on Zenodo [@sankeyqadata].
 
 ## Methods
 
@@ -74,7 +73,7 @@ Figure 1 shows the pipeline. A questionnaire configuration produces a simulated 
 
 ### Career maps without personal data
 
-The career maps of XR-CareerAssist are built from the anonymised profiles of the CVCOSMOS database, which cannot be shared [@tantaroudas2026ore]. The benchmark therefore simulates cohorts. A configuration has the same fields as the platform's questionnaire, namely the kind of map (roles or industries), the starting role, years of experience (2 to 25), industry (12 options), age group (21–30 to 51–60), target role and the number of matched profiles (60 to 1,200). Roles form a ladder of six levels, from employee to executive, plus two side roles, consultant and founder. For each configuration a small random model moves every simulated person between roles or industries at 2, 5 and 10 years. People with less experience and in younger age groups move more often, upward moves are pulled towards the target role, and moves between related industries are more likely than moves between unrelated ones. As in the real platform, each stage shows only the largest groups (four to seven), and the remaining people are merged into a group called Other.
+The career maps of XR-CareerAssist are built from a database of anonymised career profiles, which cannot be shared [@tantaroudas2026ore]. The benchmark therefore simulates cohorts. A configuration has the same fields as the platform's questionnaire, namely the kind of map (roles or industries), the starting role, years of experience (2 to 25), industry (12 options), age group (21–30 to 51–60), target role and the number of matched profiles (60 to 1,200). Roles form a ladder of six levels, from employee to executive, plus two side roles, consultant and founder. For each configuration a small random model moves every simulated person between roles or industries at 2, 5 and 10 years. People with less experience and in younger age groups move more often, upward moves are pulled towards the target role, and moves between related industries are more likely than moves between unrelated ones. As in the real platform, each stage shows only the largest groups (four to seven), and the remaining people are merged into a group called Other.
 
 The data are therefore artificial and not real. They were generated only to demonstrate and test the technology, and no conclusion about real careers, roles or industries should be drawn from them. The simulation is not meant to describe real careers. It produces diagrams with the same structure as those of the platform, a single starting group that spreads out over time, three to eight groups per stage and 20 to 99 bands per diagram, while every count behind the picture is known exactly. The flow table records the size of every group at every stage and the number of people in every band between two stages. An automatic check confirms that the bands leaving and entering every group add up to the size of the group.
 
@@ -187,7 +186,7 @@ This project contains the following underlying data.
 - `results/raw/`, every reply of every reader and fine-tuned model to every question, with the parsed answer, the score and the time taken
 - `results/tables/` and `results/key_numbers.json`, all tables and numbers reported in this article
 
-All career data in the deposit are artificial. They were generated by the software to demonstrate and test the technology and do not describe real people, real careers or the CVCOSMOS database.
+All career data in the deposit are artificial. They were generated by the software to demonstrate and test the technology and do not describe real people, real careers or any real career database.
 
 Data are available under the terms of the Creative Commons Attribution 4.0 International license (CC BY 4.0).
 
@@ -213,11 +212,11 @@ The software generates the benchmark, runs every reader, fine-tunes BLIP, comput
 
 ## Ethics and consent
 
-Ethical approval and consent were not required. The study involved no human participants and no personal data. All career profiles were simulated, and the CVCOSMOS database used by the XR-CareerAssist platform was not accessed.
+Ethical approval and consent were not required. The study involved no human participants and no personal data. All career profiles were simulated, and the career database used by the XR-CareerAssist platform was not accessed.
 
 ## Competing interests
 
-The authors developed the XR-CareerAssist platform discussed in this article. NDT is the founder and legal representative of DASKALOS APPS SAS, with which AJM is affiliated, and VP is affiliated with CVCOSMOS Ltd, which owns the career database used by the platform. No other competing interests were disclosed.
+The authors developed the XR-CareerAssist platform discussed in this article. NDT is the founder and legal representative of DASKALOS APPS SAS, with which AJM is affiliated. No other competing interests were disclosed.
 
 ## Grant information
 

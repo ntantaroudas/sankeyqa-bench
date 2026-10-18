@@ -196,7 +196,7 @@ efron1979:
   year: 1979
   first_author: Efron
 sankeyqadata:
-  text: "Tantaroudas ND, McCracken AJ, Karachalios I, Papatheou E, Pastrikakis V. SankeyQA, career-map Sankey diagrams with exact answers, benchmark data, model replies and code (version 1.0.0) [Data set and software]. Zenodo. 2026"
+  text: "Tantaroudas ND, McCracken AJ, Karachalios I, Papatheou E. SankeyQA, career-map Sankey diagrams with exact answers, benchmark data, model replies and code (version 1.0.0) [Data set and software]. Zenodo. 2026"
   doi: "{{ZENODO_DOI}}"
   pending: true
   title: "SankeyQA"
