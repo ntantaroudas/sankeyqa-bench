@@ -1,0 +1,26 @@
+{
+ "note": "Hugging Face hub revisions (commit hashes) of the models used in this study, downloaded on 16 October 2026. All models were run on a CPU in 32-bit precision with greedy decoding.",
+ "HuggingFaceTB/SmolVLM-256M-Instruct": "7e3e67edbbed1bf9888184d9df282b700a323964",
+ "HuggingFaceTB/SmolVLM-500M-Instruct": "a7da5b986cb59b408707209984f360a5f4ad7e47",
+ "Qwen/Qwen2.5-0.5B-Instruct": "7ae557604adf67be50417f59c2c2f167def9a775",
+ "Salesforce/blip-vqa-base": "787b3d35d57e49572baabd22884b3d5a05acf072",
+ "google/matcha-chartqa": "38169a34e77f9adc7f37b5e205ba4f6006d21eca",
+ "software": {
+  "python": "3.13",
+  "torch": "2.14.1 (CPU)",
+  "transformers": "5.20.0",
+  "numpy": "2.5.3",
+  "matplotlib": "3.11.2",
+  "pillow": "12.3.0",
+  "pandas": "3.0.5",
+  "scikit-learn": "1.9.1"
+ },
+ "hardware": "cloud virtual machine, 2 CPU cores, 8 GB memory, no GPU",
+ "parameters_millions": {
+  "SmolVLM-256M-Instruct": 256,
+  "SmolVLM-500M-Instruct": 507,
+  "Qwen2.5-0.5B-Instruct": 494,
+  "blip-vqa-base": 385,
+  "matcha-chartqa": 282
+ }
+}
