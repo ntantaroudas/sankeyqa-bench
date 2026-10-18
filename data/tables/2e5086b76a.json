@@ -1,0 +1,611 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Specialist",
+  "years_experience": 20,
+  "industry": "Energy",
+  "age_group": "41-50",
+  "target_role": "Executive",
+  "n_profiles": 800,
+  "max_nodes": 7
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 800,
+ "nodes": [
+  [
+   {
+    "label": "Energy",
+    "count": 800
+   }
+  ],
+  [
+   {
+    "label": "Energy",
+    "count": 680
+   },
+   {
+    "label": "Public Sector",
+    "count": 36
+   },
+   {
+    "label": "Manufacturing",
+    "count": 31
+   },
+   {
+    "label": "Telecommunications",
+    "count": 27
+   },
+   {
+    "label": "Financial Services",
+    "count": 10
+   },
+   {
+    "label": "Software Products",
+    "count": 9
+   },
+   {
+    "label": "Retail",
+    "count": 7
+   }
+  ],
+  [
+   {
+    "label": "Energy",
+    "count": 505
+   },
+   {
+    "label": "Telecommunications",
+    "count": 88
+   },
+   {
+    "label": "Public Sector",
+    "count": 71
+   },
+   {
+    "label": "Manufacturing",
+    "count": 60
+   },
+   {
+    "label": "Software Products",
+    "count": 27
+   },
+   {
+    "label": "Financial Services",
+    "count": 26
+   },
+   {
+    "label": "Retail",
+    "count": 23
+   }
+  ],
+  [
+   {
+    "label": "Energy",
+    "count": 394
+   },
+   {
+    "label": "Public Sector",
+    "count": 109
+   },
+   {
+    "label": "Manufacturing",
+    "count": 99
+   },
+   {
+    "label": "Telecommunications",
+    "count": 98
+   },
+   {
+    "label": "Financial Services",
+    "count": 36
+   },
+   {
+    "label": "Retail",
+    "count": 36
+   },
+   {
+    "label": "Software Products",
+    "count": 28
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Energy",
+   "target": "Energy",
+   "count": 680
+  },
+  {
+   "stage": 0,
+   "source": "Energy",
+   "target": "Public Sector",
+   "count": 36
+  },
+  {
+   "stage": 0,
+   "source": "Energy",
+   "target": "Manufacturing",
+   "count": 31
+  },
+  {
+   "stage": 0,
+   "source": "Energy",
+   "target": "Telecommunications",
+   "count": 27
+  },
+  {
+   "stage": 0,
+   "source": "Energy",
+   "target": "Financial Services",
+   "count": 10
+  },
+  {
+   "stage": 0,
+   "source": "Energy",
+   "target": "Software Products",
+   "count": 9
+  },
+  {
+   "stage": 0,
+   "source": "Energy",
+   "target": "Retail",
+   "count": 7
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Energy",
+   "count": 495
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Telecommunications",
+   "count": 63
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Manufacturing",
+   "count": 39
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Public Sector",
+   "count": 39
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 30
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Software Products",
+   "count": 21
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 20
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 17
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Retail",
+   "count": 12
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Financial Services",
+   "count": 11
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 9
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Energy",
+   "count": 7
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Retail",
+   "count": 7
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Software Products",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Telecommunications",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Financial Services",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Retail",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Telecommunications",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Energy",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Financial Services",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Manufacturing",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Financial Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Public Sector",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Software Products",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Public Sector",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Energy",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Software Products",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Energy",
+   "count": 366
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 61
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 56
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Manufacturing",
+   "count": 43
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Public Sector",
+   "count": 43
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 43
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Telecommunications",
+   "count": 30
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 19
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Retail",
+   "count": 19
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Software Products",
+   "count": 18
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Energy",
+   "count": 15
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Financial Services",
+   "count": 9
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Retail",
+   "count": 8
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Software Products",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Energy",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Retail",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Manufacturing",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Manufacturing",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Energy",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Energy",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Public Sector",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Financial Services",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Public Sector",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Telecommunications",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Financial Services",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Software Products",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Telecommunications",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Public Sector",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Telecommunications",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Financial Services",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Public Sector",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Retail",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Public Sector",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Software Products",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Financial Services",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Energy",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Financial Services",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Software Products",
+   "count": 1
+  }
+ ]
+}

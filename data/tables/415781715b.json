@@ -1,0 +1,359 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Specialist",
+  "years_experience": 2,
+  "industry": "Consulting",
+  "age_group": "21-30",
+  "target_role": "Executive",
+  "n_profiles": 240,
+  "max_nodes": 5
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 240,
+ "nodes": [
+  [
+   {
+    "label": "Consulting",
+    "count": 240
+   }
+  ],
+  [
+   {
+    "label": "Consulting",
+    "count": 206
+   },
+   {
+    "label": "IT Services",
+    "count": 14
+   },
+   {
+    "label": "Financial Services",
+    "count": 9
+   },
+   {
+    "label": "Public Sector",
+    "count": 6
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 5
+   }
+  ],
+  [
+   {
+    "label": "Consulting",
+    "count": 151
+   },
+   {
+    "label": "IT Services",
+    "count": 30
+   },
+   {
+    "label": "Financial Services",
+    "count": 23
+   },
+   {
+    "label": "Public Sector",
+    "count": 23
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 13
+   }
+  ],
+  [
+   {
+    "label": "Consulting",
+    "count": 107
+   },
+   {
+    "label": "Public Sector",
+    "count": 41
+   },
+   {
+    "label": "Financial Services",
+    "count": 37
+   },
+   {
+    "label": "IT Services",
+    "count": 36
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 19
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 206
+  },
+  {
+   "stage": 0,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 14
+  },
+  {
+   "stage": 0,
+   "source": "Consulting",
+   "target": "Financial Services",
+   "count": 9
+  },
+  {
+   "stage": 0,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 6
+  },
+  {
+   "stage": 0,
+   "source": "Consulting",
+   "target": "Computer Manufacturing",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 146
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 18
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 18
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Financial Services",
+   "count": 17
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 11
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Computer Manufacturing",
+   "count": 7
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Consulting",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Computer Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Public Sector",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Financial Services",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 91
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 21
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 17
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Financial Services",
+   "count": 16
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 16
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 15
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 13
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 9
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Computer Manufacturing",
+   "count": 8
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Consulting",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Consulting",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Consulting",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Financial Services",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Public Sector",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Public Sector",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "IT Services",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Public Sector",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "IT Services",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Financial Services",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Computer Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Computer Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Financial Services",
+   "count": 1
+  }
+ ]
+}

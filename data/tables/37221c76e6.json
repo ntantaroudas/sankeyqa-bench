@@ -1,0 +1,467 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Team Lead",
+  "years_experience": 20,
+  "industry": "Telecommunications",
+  "age_group": "41-50",
+  "target_role": "Director",
+  "n_profiles": 800,
+  "max_nodes": 5
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 800,
+ "nodes": [
+  [
+   {
+    "label": "Telecommunications",
+    "count": 800
+   }
+  ],
+  [
+   {
+    "label": "Telecommunications",
+    "count": 710
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 25
+   },
+   {
+    "label": "IT Services",
+    "count": 25
+   },
+   {
+    "label": "Energy",
+    "count": 18
+   },
+   {
+    "label": "Other",
+    "count": 13
+   },
+   {
+    "label": "Manufacturing",
+    "count": 9
+   }
+  ],
+  [
+   {
+    "label": "Telecommunications",
+    "count": 573
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 65
+   },
+   {
+    "label": "IT Services",
+    "count": 52
+   },
+   {
+    "label": "Energy",
+    "count": 45
+   },
+   {
+    "label": "Other",
+    "count": 38
+   },
+   {
+    "label": "Manufacturing",
+    "count": 27
+   }
+  ],
+  [
+   {
+    "label": "Telecommunications",
+    "count": 445
+   },
+   {
+    "label": "IT Services",
+    "count": 82
+   },
+   {
+    "label": "Energy",
+    "count": 81
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 74
+   },
+   {
+    "label": "Other",
+    "count": 70
+   },
+   {
+    "label": "Manufacturing",
+    "count": 48
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 710
+  },
+  {
+   "stage": 0,
+   "source": "Telecommunications",
+   "target": "Computer Manufacturing",
+   "count": 25
+  },
+  {
+   "stage": 0,
+   "source": "Telecommunications",
+   "target": "IT Services",
+   "count": 25
+  },
+  {
+   "stage": 0,
+   "source": "Telecommunications",
+   "target": "Energy",
+   "count": 18
+  },
+  {
+   "stage": 0,
+   "source": "Telecommunications",
+   "target": "Other",
+   "count": 13
+  },
+  {
+   "stage": 0,
+   "source": "Telecommunications",
+   "target": "Manufacturing",
+   "count": 9
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 571
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Computer Manufacturing",
+   "count": 44
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Energy",
+   "count": 30
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "IT Services",
+   "count": 25
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Other",
+   "count": 25
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 24
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 20
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Manufacturing",
+   "count": 15
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Energy",
+   "count": 12
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "Other",
+   "count": 10
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 6
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Manufacturing",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Other",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Energy",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "IT Services",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Energy",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Computer Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 432
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 50
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 38
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "IT Services",
+   "count": 38
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Energy",
+   "count": 36
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Other",
+   "count": 33
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Energy",
+   "count": 33
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Other",
+   "count": 32
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 23
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Computer Manufacturing",
+   "count": 22
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Manufacturing",
+   "count": 16
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Manufacturing",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Telecommunications",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Energy",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Telecommunications",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Energy",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Energy",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "IT Services",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Other",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Telecommunications",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "IT Services",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Manufacturing",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Telecommunications",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Computer Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Computer Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Manufacturing",
+   "count": 1
+  }
+ ]
+}

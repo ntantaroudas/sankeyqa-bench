@@ -1,0 +1,431 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Team Lead",
+  "years_experience": 15,
+  "industry": "IT Services",
+  "age_group": "41-50",
+  "target_role": "Executive",
+  "n_profiles": 450,
+  "max_nodes": 5
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 450,
+ "nodes": [
+  [
+   {
+    "label": "IT Services",
+    "count": 450
+   }
+  ],
+  [
+   {
+    "label": "IT Services",
+    "count": 412
+   },
+   {
+    "label": "Consulting",
+    "count": 19
+   },
+   {
+    "label": "Telecommunications",
+    "count": 10
+   },
+   {
+    "label": "Software Products",
+    "count": 5
+   },
+   {
+    "label": "Financial Services",
+    "count": 2
+   },
+   {
+    "label": "Other",
+    "count": 2
+   }
+  ],
+  [
+   {
+    "label": "IT Services",
+    "count": 283
+   },
+   {
+    "label": "Consulting",
+    "count": 46
+   },
+   {
+    "label": "Telecommunications",
+    "count": 45
+   },
+   {
+    "label": "Software Products",
+    "count": 44
+   },
+   {
+    "label": "Financial Services",
+    "count": 19
+   },
+   {
+    "label": "Other",
+    "count": 13
+   }
+  ],
+  [
+   {
+    "label": "IT Services",
+    "count": 198
+   },
+   {
+    "label": "Consulting",
+    "count": 87
+   },
+   {
+    "label": "Software Products",
+    "count": 58
+   },
+   {
+    "label": "Telecommunications",
+    "count": 58
+   },
+   {
+    "label": "Financial Services",
+    "count": 30
+   },
+   {
+    "label": "Other",
+    "count": 19
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 412
+  },
+  {
+   "stage": 0,
+   "source": "IT Services",
+   "target": "Consulting",
+   "count": 19
+  },
+  {
+   "stage": 0,
+   "source": "IT Services",
+   "target": "Telecommunications",
+   "count": 10
+  },
+  {
+   "stage": 0,
+   "source": "IT Services",
+   "target": "Software Products",
+   "count": 5
+  },
+  {
+   "stage": 0,
+   "source": "IT Services",
+   "target": "Financial Services",
+   "count": 2
+  },
+  {
+   "stage": 0,
+   "source": "IT Services",
+   "target": "Other",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 278
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Telecommunications",
+   "count": 40
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Software Products",
+   "count": 39
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Consulting",
+   "count": 32
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Financial Services",
+   "count": 15
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 14
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Other",
+   "count": 8
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Software Products",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "IT Services",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Financial Services",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "Other",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Other",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Software Products",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 185
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 37
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Consulting",
+   "count": 36
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 35
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Software Products",
+   "count": 30
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Software Products",
+   "count": 22
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Telecommunications",
+   "count": 20
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 14
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Consulting",
+   "count": 9
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "IT Services",
+   "count": 9
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Other",
+   "count": 8
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Financial Services",
+   "count": 7
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Other",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Financial Services",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Software Products",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Other",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Consulting",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Financial Services",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Telecommunications",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Financial Services",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Software Products",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Software Products",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Financial Services",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Other",
+   "count": 1
+  }
+ ]
+}
