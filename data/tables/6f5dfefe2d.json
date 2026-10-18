@@ -1,0 +1,287 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Director",
+  "years_experience": 5,
+  "industry": "Consulting",
+  "age_group": "21-30",
+  "target_role": "Executive",
+  "n_profiles": 600,
+  "max_nodes": 7
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 600,
+ "nodes": [
+  [
+   {
+    "label": "Consulting",
+    "count": 600
+   }
+  ],
+  [
+   {
+    "label": "Consulting",
+    "count": 484
+   },
+   {
+    "label": "Financial Services",
+    "count": 46
+   },
+   {
+    "label": "Public Sector",
+    "count": 37
+   },
+   {
+    "label": "IT Services",
+    "count": 33
+   }
+  ],
+  [
+   {
+    "label": "Consulting",
+    "count": 402
+   },
+   {
+    "label": "Financial Services",
+    "count": 80
+   },
+   {
+    "label": "Public Sector",
+    "count": 64
+   },
+   {
+    "label": "IT Services",
+    "count": 54
+   }
+  ],
+  [
+   {
+    "label": "Consulting",
+    "count": 268
+   },
+   {
+    "label": "IT Services",
+    "count": 125
+   },
+   {
+    "label": "Financial Services",
+    "count": 107
+   },
+   {
+    "label": "Public Sector",
+    "count": 100
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 484
+  },
+  {
+   "stage": 0,
+   "source": "Consulting",
+   "target": "Financial Services",
+   "count": 46
+  },
+  {
+   "stage": 0,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 37
+  },
+  {
+   "stage": 0,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 33
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 388
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Financial Services",
+   "count": 40
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 35
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 33
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 30
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 25
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 23
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "IT Services",
+   "count": 6
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Consulting",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Consulting",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Consulting",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Financial Services",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Financial Services",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Public Sector",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 236
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 74
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 52
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 48
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Financial Services",
+   "count": 44
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 40
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 36
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Consulting",
+   "count": 14
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Consulting",
+   "count": 10
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "IT Services",
+   "count": 9
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Consulting",
+   "count": 8
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Financial Services",
+   "count": 8
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Public Sector",
+   "count": 7
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "IT Services",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Public Sector",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Financial Services",
+   "count": 3
+  }
+ ]
+}

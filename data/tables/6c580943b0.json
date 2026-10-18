@@ -1,0 +1,251 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Employee",
+  "years_experience": 10,
+  "industry": "Software Products",
+  "age_group": "21-30",
+  "target_role": "Manager",
+  "n_profiles": 90,
+  "max_nodes": 6
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 90,
+ "nodes": [
+  [
+   {
+    "label": "Software Products",
+    "count": 90
+   }
+  ],
+  [
+   {
+    "label": "Software Products",
+    "count": 82
+   },
+   {
+    "label": "Consulting",
+    "count": 4
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 3
+   },
+   {
+    "label": "IT Services",
+    "count": 1
+   }
+  ],
+  [
+   {
+    "label": "Software Products",
+    "count": 67
+   },
+   {
+    "label": "Consulting",
+    "count": 10
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 6
+   },
+   {
+    "label": "IT Services",
+    "count": 6
+   },
+   {
+    "label": "Education",
+    "count": 1
+   }
+  ],
+  [
+   {
+    "label": "Software Products",
+    "count": 57
+   },
+   {
+    "label": "Consulting",
+    "count": 13
+   },
+   {
+    "label": "IT Services",
+    "count": 9
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 6
+   },
+   {
+    "label": "Education",
+    "count": 4
+   },
+   {
+    "label": "Energy",
+    "count": 1
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Software Products",
+   "target": "Software Products",
+   "count": 82
+  },
+  {
+   "stage": 0,
+   "source": "Software Products",
+   "target": "Consulting",
+   "count": 4
+  },
+  {
+   "stage": 0,
+   "source": "Software Products",
+   "target": "Computer Manufacturing",
+   "count": 3
+  },
+  {
+   "stage": 0,
+   "source": "Software Products",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Software Products",
+   "count": 67
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Consulting",
+   "count": 6
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "IT Services",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Computer Manufacturing",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Education",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Software Products",
+   "count": 55
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 9
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "IT Services",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Consulting",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Computer Manufacturing",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Education",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Education",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Software Products",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Software Products",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Education",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Energy",
+   "count": 1
+  }
+ ]
+}

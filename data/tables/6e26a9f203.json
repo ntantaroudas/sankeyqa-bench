@@ -1,0 +1,587 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Director",
+  "years_experience": 25,
+  "industry": "Energy",
+  "age_group": "51-60",
+  "target_role": "Executive",
+  "n_profiles": 1200,
+  "max_nodes": 7
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 1200,
+ "nodes": [
+  [
+   {
+    "label": "Energy",
+    "count": 1200
+   }
+  ],
+  [
+   {
+    "label": "Energy",
+    "count": 1073
+   },
+   {
+    "label": "Telecommunications",
+    "count": 38
+   },
+   {
+    "label": "Manufacturing",
+    "count": 35
+   },
+   {
+    "label": "Public Sector",
+    "count": 23
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 13
+   },
+   {
+    "label": "Consulting",
+    "count": 10
+   },
+   {
+    "label": "Retail",
+    "count": 8
+   }
+  ],
+  [
+   {
+    "label": "Energy",
+    "count": 844
+   },
+   {
+    "label": "Public Sector",
+    "count": 96
+   },
+   {
+    "label": "Telecommunications",
+    "count": 91
+   },
+   {
+    "label": "Manufacturing",
+    "count": 72
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 40
+   },
+   {
+    "label": "Retail",
+    "count": 32
+   },
+   {
+    "label": "Consulting",
+    "count": 25
+   }
+  ],
+  [
+   {
+    "label": "Energy",
+    "count": 526
+   },
+   {
+    "label": "Telecommunications",
+    "count": 171
+   },
+   {
+    "label": "Public Sector",
+    "count": 164
+   },
+   {
+    "label": "Manufacturing",
+    "count": 130
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 88
+   },
+   {
+    "label": "Consulting",
+    "count": 66
+   },
+   {
+    "label": "Retail",
+    "count": 55
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Energy",
+   "target": "Energy",
+   "count": 1073
+  },
+  {
+   "stage": 0,
+   "source": "Energy",
+   "target": "Telecommunications",
+   "count": 38
+  },
+  {
+   "stage": 0,
+   "source": "Energy",
+   "target": "Manufacturing",
+   "count": 35
+  },
+  {
+   "stage": 0,
+   "source": "Energy",
+   "target": "Public Sector",
+   "count": 23
+  },
+  {
+   "stage": 0,
+   "source": "Energy",
+   "target": "Computer Manufacturing",
+   "count": 13
+  },
+  {
+   "stage": 0,
+   "source": "Energy",
+   "target": "Consulting",
+   "count": 10
+  },
+  {
+   "stage": 0,
+   "source": "Energy",
+   "target": "Retail",
+   "count": 8
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Energy",
+   "count": 840
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Public Sector",
+   "count": 75
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Telecommunications",
+   "count": 57
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Manufacturing",
+   "count": 41
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 34
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 29
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Computer Manufacturing",
+   "count": 24
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Retail",
+   "count": 23
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 19
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 13
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Consulting",
+   "count": 13
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 10
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Retail",
+   "count": 6
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Retail",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Energy",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Manufacturing",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Energy",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Public Sector",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Computer Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Energy",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Public Sector",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Energy",
+   "count": 502
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Telecommunications",
+   "count": 106
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Public Sector",
+   "count": 90
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Manufacturing",
+   "count": 59
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 58
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 49
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 47
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Computer Manufacturing",
+   "count": 36
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Consulting",
+   "count": 30
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 26
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Retail",
+   "count": 21
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Retail",
+   "count": 18
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 15
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 10
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Manufacturing",
+   "count": 10
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Computer Manufacturing",
+   "count": 10
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Energy",
+   "count": 10
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Consulting",
+   "count": 8
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Retail",
+   "count": 8
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Consulting",
+   "count": 7
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Manufacturing",
+   "count": 7
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Energy",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Telecommunications",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Telecommunications",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Energy",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Computer Manufacturing",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Manufacturing",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Public Sector",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Retail",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Manufacturing",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Public Sector",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Telecommunications",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Consulting",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Energy",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Public Sector",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Retail",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Public Sector",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Energy",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Computer Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Computer Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Telecommunications",
+   "count": 1
+  }
+ ]
+}

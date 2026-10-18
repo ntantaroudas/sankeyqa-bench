@@ -1,0 +1,359 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Director",
+  "years_experience": 2,
+  "industry": "Consulting",
+  "age_group": "21-30",
+  "target_role": "Executive",
+  "n_profiles": 240,
+  "max_nodes": 6
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 240,
+ "nodes": [
+  [
+   {
+    "label": "Consulting",
+    "count": 240
+   }
+  ],
+  [
+   {
+    "label": "Consulting",
+    "count": 194
+   },
+   {
+    "label": "Public Sector",
+    "count": 16
+   },
+   {
+    "label": "Financial Services",
+    "count": 15
+   },
+   {
+    "label": "IT Services",
+    "count": 10
+   },
+   {
+    "label": "Telecommunications",
+    "count": 5
+   }
+  ],
+  [
+   {
+    "label": "Consulting",
+    "count": 132
+   },
+   {
+    "label": "Public Sector",
+    "count": 35
+   },
+   {
+    "label": "Financial Services",
+    "count": 34
+   },
+   {
+    "label": "IT Services",
+    "count": 27
+   },
+   {
+    "label": "Telecommunications",
+    "count": 12
+   }
+  ],
+  [
+   {
+    "label": "Consulting",
+    "count": 108
+   },
+   {
+    "label": "IT Services",
+    "count": 45
+   },
+   {
+    "label": "Public Sector",
+    "count": 40
+   },
+   {
+    "label": "Financial Services",
+    "count": 32
+   },
+   {
+    "label": "Telecommunications",
+    "count": 15
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 194
+  },
+  {
+   "stage": 0,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 16
+  },
+  {
+   "stage": 0,
+   "source": "Consulting",
+   "target": "Financial Services",
+   "count": 15
+  },
+  {
+   "stage": 0,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 10
+  },
+  {
+   "stage": 0,
+   "source": "Consulting",
+   "target": "Telecommunications",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 126
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Financial Services",
+   "count": 23
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 22
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 19
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 12
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 11
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 7
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Telecommunications",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Consulting",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Telecommunications",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Public Sector",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 95
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 25
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 20
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 19
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 16
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 10
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Financial Services",
+   "count": 9
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 8
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Consulting",
+   "count": 7
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "IT Services",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Consulting",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Telecommunications",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Telecommunications",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Public Sector",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Financial Services",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "IT Services",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "IT Services",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Public Sector",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Public Sector",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Financial Services",
+   "count": 1
+  }
+ ]
+}
