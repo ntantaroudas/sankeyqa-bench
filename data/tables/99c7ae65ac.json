@@ -1,0 +1,401 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Employee",
+  "years_experience": 25,
+  "industry": "IT Services",
+  "age_group": "51-60",
+  "target_role": "Executive",
+  "n_profiles": 1200,
+  "max_nodes": 6
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 1200,
+ "nodes": [
+  [
+   {
+    "label": "IT Services",
+    "count": 1200
+   }
+  ],
+  [
+   {
+    "label": "IT Services",
+    "count": 967
+   },
+   {
+    "label": "Telecommunications",
+    "count": 99
+   },
+   {
+    "label": "Software Products",
+    "count": 60
+   },
+   {
+    "label": "Consulting",
+    "count": 49
+   },
+   {
+    "label": "Public Sector",
+    "count": 25
+   }
+  ],
+  [
+   {
+    "label": "IT Services",
+    "count": 808
+   },
+   {
+    "label": "Telecommunications",
+    "count": 157
+   },
+   {
+    "label": "Consulting",
+    "count": 100
+   },
+   {
+    "label": "Software Products",
+    "count": 92
+   },
+   {
+    "label": "Public Sector",
+    "count": 43
+   }
+  ],
+  [
+   {
+    "label": "IT Services",
+    "count": 548
+   },
+   {
+    "label": "Telecommunications",
+    "count": 229
+   },
+   {
+    "label": "Consulting",
+    "count": 203
+   },
+   {
+    "label": "Software Products",
+    "count": 140
+   },
+   {
+    "label": "Public Sector",
+    "count": 80
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 967
+  },
+  {
+   "stage": 0,
+   "source": "IT Services",
+   "target": "Telecommunications",
+   "count": 99
+  },
+  {
+   "stage": 0,
+   "source": "IT Services",
+   "target": "Software Products",
+   "count": 60
+  },
+  {
+   "stage": 0,
+   "source": "IT Services",
+   "target": "Consulting",
+   "count": 49
+  },
+  {
+   "stage": 0,
+   "source": "IT Services",
+   "target": "Public Sector",
+   "count": 25
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 785
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 81
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Telecommunications",
+   "count": 74
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Consulting",
+   "count": 54
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Software Products",
+   "count": 49
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Software Products",
+   "count": 41
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 39
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 24
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Public Sector",
+   "count": 13
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "IT Services",
+   "count": 8
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "IT Services",
+   "count": 8
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 6
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Consulting",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Public Sector",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Telecommunications",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Software Products",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Public Sector",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Software Products",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 472
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Telecommunications",
+   "count": 118
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Consulting",
+   "count": 108
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 90
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Software Products",
+   "count": 81
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 54
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Software Products",
+   "count": 51
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "IT Services",
+   "count": 46
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Public Sector",
+   "count": 29
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 26
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Consulting",
+   "count": 19
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 18
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 16
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Consulting",
+   "count": 14
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "IT Services",
+   "count": 12
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Telecommunications",
+   "count": 8
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Consulting",
+   "count": 8
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Telecommunications",
+   "count": 7
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Telecommunications",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Software Products",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Public Sector",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Public Sector",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Software Products",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "IT Services",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Software Products",
+   "count": 1
+  }
+ ]
+}

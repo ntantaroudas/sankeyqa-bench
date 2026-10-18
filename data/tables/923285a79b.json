@@ -1,0 +1,551 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Employee",
+  "years_experience": 5,
+  "industry": "Healthcare",
+  "age_group": "21-30",
+  "target_role": "Director",
+  "n_profiles": 450,
+  "max_nodes": 6
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 450,
+ "nodes": [
+  [
+   {
+    "label": "Healthcare",
+    "count": 450
+   }
+  ],
+  [
+   {
+    "label": "Healthcare",
+    "count": 384
+   },
+   {
+    "label": "Public Sector",
+    "count": 25
+   },
+   {
+    "label": "Education",
+    "count": 17
+   },
+   {
+    "label": "Consulting",
+    "count": 16
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 3
+   },
+   {
+    "label": "Manufacturing",
+    "count": 3
+   },
+   {
+    "label": "Other",
+    "count": 2
+   }
+  ],
+  [
+   {
+    "label": "Healthcare",
+    "count": 303
+   },
+   {
+    "label": "Public Sector",
+    "count": 44
+   },
+   {
+    "label": "Consulting",
+    "count": 34
+   },
+   {
+    "label": "Education",
+    "count": 28
+   },
+   {
+    "label": "Retail",
+    "count": 17
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 12
+   },
+   {
+    "label": "Other",
+    "count": 12
+   }
+  ],
+  [
+   {
+    "label": "Healthcare",
+    "count": 181
+   },
+   {
+    "label": "Consulting",
+    "count": 69
+   },
+   {
+    "label": "Education",
+    "count": 64
+   },
+   {
+    "label": "Public Sector",
+    "count": 54
+   },
+   {
+    "label": "Manufacturing",
+    "count": 39
+   },
+   {
+    "label": "Retail",
+    "count": 26
+   },
+   {
+    "label": "Other",
+    "count": 17
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Healthcare",
+   "target": "Healthcare",
+   "count": 384
+  },
+  {
+   "stage": 0,
+   "source": "Healthcare",
+   "target": "Public Sector",
+   "count": 25
+  },
+  {
+   "stage": 0,
+   "source": "Healthcare",
+   "target": "Education",
+   "count": 17
+  },
+  {
+   "stage": 0,
+   "source": "Healthcare",
+   "target": "Consulting",
+   "count": 16
+  },
+  {
+   "stage": 0,
+   "source": "Healthcare",
+   "target": "Computer Manufacturing",
+   "count": 3
+  },
+  {
+   "stage": 0,
+   "source": "Healthcare",
+   "target": "Manufacturing",
+   "count": 3
+  },
+  {
+   "stage": 0,
+   "source": "Healthcare",
+   "target": "Other",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Healthcare",
+   "count": 300
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Consulting",
+   "count": 22
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 21
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Public Sector",
+   "count": 18
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Education",
+   "count": 16
+  },
+  {
+   "stage": 1,
+   "source": "Education",
+   "target": "Education",
+   "count": 11
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 10
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Computer Manufacturing",
+   "count": 10
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Retail",
+   "count": 10
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Other",
+   "count": 8
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Education",
+   "target": "Healthcare",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Other",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Retail",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "Retail",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Retail",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Public Sector",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Education",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Education",
+   "target": "Public Sector",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Education",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Education",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Healthcare",
+   "count": 171
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Education",
+   "count": 43
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Consulting",
+   "count": 42
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 28
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 18
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Manufacturing",
+   "count": 18
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Education",
+   "count": 16
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Public Sector",
+   "count": 16
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Retail",
+   "count": 11
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Manufacturing",
+   "count": 9
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Other",
+   "count": 8
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Retail",
+   "count": 8
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Other",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Consulting",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Healthcare",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Manufacturing",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Manufacturing",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Retail",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Manufacturing",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Public Sector",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Education",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Healthcare",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Public Sector",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Education",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Healthcare",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Retail",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Healthcare",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Public Sector",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Education",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Manufacturing",
+   "count": 1
+  }
+ ]
+}

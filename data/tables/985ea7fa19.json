@@ -1,0 +1,431 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Employee",
+  "years_experience": 2,
+  "industry": "Public Sector",
+  "age_group": "21-30",
+  "target_role": "Specialist",
+  "n_profiles": 450,
+  "max_nodes": 6
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 450,
+ "nodes": [
+  [
+   {
+    "label": "Public Sector",
+    "count": 450
+   }
+  ],
+  [
+   {
+    "label": "Public Sector",
+    "count": 391
+   },
+   {
+    "label": "Education",
+    "count": 20
+   },
+   {
+    "label": "Healthcare",
+    "count": 20
+   },
+   {
+    "label": "Consulting",
+    "count": 13
+   },
+   {
+    "label": "Financial Services",
+    "count": 4
+   },
+   {
+    "label": "Telecommunications",
+    "count": 2
+   }
+  ],
+  [
+   {
+    "label": "Public Sector",
+    "count": 336
+   },
+   {
+    "label": "Education",
+    "count": 35
+   },
+   {
+    "label": "Consulting",
+    "count": 34
+   },
+   {
+    "label": "Healthcare",
+    "count": 29
+   },
+   {
+    "label": "Financial Services",
+    "count": 10
+   },
+   {
+    "label": "Telecommunications",
+    "count": 6
+   }
+  ],
+  [
+   {
+    "label": "Public Sector",
+    "count": 243
+   },
+   {
+    "label": "Consulting",
+    "count": 67
+   },
+   {
+    "label": "Education",
+    "count": 52
+   },
+   {
+    "label": "Healthcare",
+    "count": 44
+   },
+   {
+    "label": "Financial Services",
+    "count": 25
+   },
+   {
+    "label": "Telecommunications",
+    "count": 19
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 391
+  },
+  {
+   "stage": 0,
+   "source": "Public Sector",
+   "target": "Education",
+   "count": 20
+  },
+  {
+   "stage": 0,
+   "source": "Public Sector",
+   "target": "Healthcare",
+   "count": 20
+  },
+  {
+   "stage": 0,
+   "source": "Public Sector",
+   "target": "Consulting",
+   "count": 13
+  },
+  {
+   "stage": 0,
+   "source": "Public Sector",
+   "target": "Financial Services",
+   "count": 4
+  },
+  {
+   "stage": 0,
+   "source": "Public Sector",
+   "target": "Telecommunications",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 335
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Consulting",
+   "count": 20
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Education",
+   "count": 19
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Healthcare",
+   "count": 17
+  },
+  {
+   "stage": 1,
+   "source": "Education",
+   "target": "Education",
+   "count": 14
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 11
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Healthcare",
+   "count": 9
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Telecommunications",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Education",
+   "target": "Healthcare",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Financial Services",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Financial Services",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Education",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Education",
+   "target": "Financial Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Education",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Public Sector",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Education",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 234
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Consulting",
+   "count": 32
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Education",
+   "count": 26
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 25
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Education",
+   "count": 22
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Healthcare",
+   "count": 20
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Healthcare",
+   "count": 19
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Financial Services",
+   "count": 14
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Telecommunications",
+   "count": 11
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Consulting",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Public Sector",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Financial Services",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Consulting",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Financial Services",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Healthcare",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Healthcare",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Public Sector",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Education",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Education",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Healthcare",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Education",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Education",
+   "count": 1
+  }
+ ]
+}

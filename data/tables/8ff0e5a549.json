@@ -1,0 +1,407 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Team Lead",
+  "years_experience": 5,
+  "industry": "Telecommunications",
+  "age_group": "21-30",
+  "target_role": "Director",
+  "n_profiles": 320,
+  "max_nodes": 5
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 320,
+ "nodes": [
+  [
+   {
+    "label": "Telecommunications",
+    "count": 320
+   }
+  ],
+  [
+   {
+    "label": "Telecommunications",
+    "count": 271
+   },
+   {
+    "label": "IT Services",
+    "count": 17
+   },
+   {
+    "label": "Energy",
+    "count": 14
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 11
+   },
+   {
+    "label": "Financial Services",
+    "count": 4
+   },
+   {
+    "label": "Other",
+    "count": 3
+   }
+  ],
+  [
+   {
+    "label": "Telecommunications",
+    "count": 193
+   },
+   {
+    "label": "IT Services",
+    "count": 40
+   },
+   {
+    "label": "Energy",
+    "count": 34
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 31
+   },
+   {
+    "label": "Financial Services",
+    "count": 12
+   },
+   {
+    "label": "Other",
+    "count": 10
+   }
+  ],
+  [
+   {
+    "label": "Telecommunications",
+    "count": 157
+   },
+   {
+    "label": "Energy",
+    "count": 47
+   },
+   {
+    "label": "IT Services",
+    "count": 43
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 38
+   },
+   {
+    "label": "Consulting",
+    "count": 24
+   },
+   {
+    "label": "Other",
+    "count": 11
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 271
+  },
+  {
+   "stage": 0,
+   "source": "Telecommunications",
+   "target": "IT Services",
+   "count": 17
+  },
+  {
+   "stage": 0,
+   "source": "Telecommunications",
+   "target": "Energy",
+   "count": 14
+  },
+  {
+   "stage": 0,
+   "source": "Telecommunications",
+   "target": "Computer Manufacturing",
+   "count": 11
+  },
+  {
+   "stage": 0,
+   "source": "Telecommunications",
+   "target": "Financial Services",
+   "count": 4
+  },
+  {
+   "stage": 0,
+   "source": "Telecommunications",
+   "target": "Other",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 190
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "IT Services",
+   "count": 26
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Energy",
+   "count": 21
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Computer Manufacturing",
+   "count": 20
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 13
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Energy",
+   "count": 11
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 9
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Financial Services",
+   "count": 8
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Other",
+   "count": 6
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Telecommunications",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Computer Manufacturing",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Energy",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Financial Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "Energy",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 145
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Energy",
+   "count": 29
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 28
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 25
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Energy",
+   "count": 13
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "IT Services",
+   "count": 13
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Computer Manufacturing",
+   "count": 11
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Consulting",
+   "count": 10
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Consulting",
+   "count": 7
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Other",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Telecommunications",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Telecommunications",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Other",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Consulting",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Energy",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "IT Services",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Computer Manufacturing",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Energy",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Energy",
+   "count": 1
+  }
+ ]
+}
