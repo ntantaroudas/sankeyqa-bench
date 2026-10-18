@@ -1,0 +1,371 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Manager",
+  "years_experience": 10,
+  "industry": "Retail",
+  "age_group": "31-40",
+  "target_role": "Director",
+  "n_profiles": 450,
+  "max_nodes": 4
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 450,
+ "nodes": [
+  [
+   {
+    "label": "Retail",
+    "count": 450
+   }
+  ],
+  [
+   {
+    "label": "Retail",
+    "count": 357
+   },
+   {
+    "label": "Other",
+    "count": 32
+   },
+   {
+    "label": "Financial Services",
+    "count": 29
+   },
+   {
+    "label": "Consulting",
+    "count": 16
+   },
+   {
+    "label": "Manufacturing",
+    "count": 16
+   }
+  ],
+  [
+   {
+    "label": "Retail",
+    "count": 265
+   },
+   {
+    "label": "Other",
+    "count": 56
+   },
+   {
+    "label": "Financial Services",
+    "count": 50
+   },
+   {
+    "label": "Consulting",
+    "count": 41
+   },
+   {
+    "label": "Manufacturing",
+    "count": 38
+   }
+  ],
+  [
+   {
+    "label": "Retail",
+    "count": 188
+   },
+   {
+    "label": "Other",
+    "count": 78
+   },
+   {
+    "label": "Manufacturing",
+    "count": 67
+   },
+   {
+    "label": "Financial Services",
+    "count": 60
+   },
+   {
+    "label": "Consulting",
+    "count": 57
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Retail",
+   "target": "Retail",
+   "count": 357
+  },
+  {
+   "stage": 0,
+   "source": "Retail",
+   "target": "Other",
+   "count": 32
+  },
+  {
+   "stage": 0,
+   "source": "Retail",
+   "target": "Financial Services",
+   "count": 29
+  },
+  {
+   "stage": 0,
+   "source": "Retail",
+   "target": "Consulting",
+   "count": 16
+  },
+  {
+   "stage": 0,
+   "source": "Retail",
+   "target": "Manufacturing",
+   "count": 16
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Retail",
+   "count": 261
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "Other",
+   "count": 28
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Financial Services",
+   "count": 27
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Manufacturing",
+   "count": 25
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Consulting",
+   "count": 24
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 23
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Other",
+   "count": 20
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 12
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 12
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Other",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Other",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Other",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Retail",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Retail",
+   "count": 175
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Other",
+   "count": 43
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 38
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Manufacturing",
+   "count": 31
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 29
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 29
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Consulting",
+   "count": 21
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Other",
+   "count": 20
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Financial Services",
+   "count": 18
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Other",
+   "count": 9
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Retail",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Manufacturing",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Other",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Retail",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Financial Services",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Consulting",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Retail",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Consulting",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Manufacturing",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Other",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Financial Services",
+   "count": 1
+  }
+ ]
+}

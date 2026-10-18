@@ -1,0 +1,335 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Manager",
+  "years_experience": 20,
+  "industry": "Computer Manufacturing",
+  "age_group": "41-50",
+  "target_role": "Executive",
+  "n_profiles": 240,
+  "max_nodes": 5
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 240,
+ "nodes": [
+  [
+   {
+    "label": "Computer Manufacturing",
+    "count": 240
+   }
+  ],
+  [
+   {
+    "label": "Computer Manufacturing",
+    "count": 197
+   },
+   {
+    "label": "Telecommunications",
+    "count": 15
+   },
+   {
+    "label": "Software Products",
+    "count": 13
+   },
+   {
+    "label": "Manufacturing",
+    "count": 11
+   },
+   {
+    "label": "Consulting",
+    "count": 4
+   }
+  ],
+  [
+   {
+    "label": "Computer Manufacturing",
+    "count": 150
+   },
+   {
+    "label": "Telecommunications",
+    "count": 31
+   },
+   {
+    "label": "Manufacturing",
+    "count": 27
+   },
+   {
+    "label": "Software Products",
+    "count": 25
+   },
+   {
+    "label": "Consulting",
+    "count": 7
+   }
+  ],
+  [
+   {
+    "label": "Computer Manufacturing",
+    "count": 104
+   },
+   {
+    "label": "Telecommunications",
+    "count": 43
+   },
+   {
+    "label": "Manufacturing",
+    "count": 37
+   },
+   {
+    "label": "Software Products",
+    "count": 36
+   },
+   {
+    "label": "Consulting",
+    "count": 20
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 197
+  },
+  {
+   "stage": 0,
+   "source": "Computer Manufacturing",
+   "target": "Telecommunications",
+   "count": 15
+  },
+  {
+   "stage": 0,
+   "source": "Computer Manufacturing",
+   "target": "Software Products",
+   "count": 13
+  },
+  {
+   "stage": 0,
+   "source": "Computer Manufacturing",
+   "target": "Manufacturing",
+   "count": 11
+  },
+  {
+   "stage": 0,
+   "source": "Computer Manufacturing",
+   "target": "Consulting",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 149
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Manufacturing",
+   "count": 17
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Telecommunications",
+   "count": 16
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 14
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Software Products",
+   "count": 13
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Software Products",
+   "count": 12
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 10
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Computer Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 83
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Telecommunications",
+   "count": 26
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Manufacturing",
+   "count": 18
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 15
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Software Products",
+   "count": 14
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 14
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Software Products",
+   "count": 13
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Consulting",
+   "count": 10
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Computer Manufacturing",
+   "count": 9
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Computer Manufacturing",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Software Products",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Software Products",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Consulting",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Computer Manufacturing",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Telecommunications",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Manufacturing",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Manufacturing",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Software Products",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Consulting",
+   "count": 1
+  }
+ ]
+}

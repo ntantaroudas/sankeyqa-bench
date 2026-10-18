@@ -1,0 +1,407 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Team Lead",
+  "years_experience": 15,
+  "industry": "Software Products",
+  "age_group": "41-50",
+  "target_role": "Manager",
+  "n_profiles": 120,
+  "max_nodes": 6
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 120,
+ "nodes": [
+  [
+   {
+    "label": "Software Products",
+    "count": 120
+   }
+  ],
+  [
+   {
+    "label": "Software Products",
+    "count": 95
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 8
+   },
+   {
+    "label": "Consulting",
+    "count": 7
+   },
+   {
+    "label": "IT Services",
+    "count": 5
+   },
+   {
+    "label": "Education",
+    "count": 3
+   },
+   {
+    "label": "Manufacturing",
+    "count": 2
+   }
+  ],
+  [
+   {
+    "label": "Software Products",
+    "count": 74
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 11
+   },
+   {
+    "label": "Consulting",
+    "count": 10
+   },
+   {
+    "label": "IT Services",
+    "count": 9
+   },
+   {
+    "label": "Manufacturing",
+    "count": 9
+   },
+   {
+    "label": "Education",
+    "count": 7
+   }
+  ],
+  [
+   {
+    "label": "Software Products",
+    "count": 53
+   },
+   {
+    "label": "Consulting",
+    "count": 20
+   },
+   {
+    "label": "IT Services",
+    "count": 20
+   },
+   {
+    "label": "Manufacturing",
+    "count": 12
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 10
+   },
+   {
+    "label": "Education",
+    "count": 5
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Software Products",
+   "target": "Software Products",
+   "count": 95
+  },
+  {
+   "stage": 0,
+   "source": "Software Products",
+   "target": "Computer Manufacturing",
+   "count": 8
+  },
+  {
+   "stage": 0,
+   "source": "Software Products",
+   "target": "Consulting",
+   "count": 7
+  },
+  {
+   "stage": 0,
+   "source": "Software Products",
+   "target": "IT Services",
+   "count": 5
+  },
+  {
+   "stage": 0,
+   "source": "Software Products",
+   "target": "Education",
+   "count": 3
+  },
+  {
+   "stage": 0,
+   "source": "Software Products",
+   "target": "Manufacturing",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Software Products",
+   "count": 72
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "IT Services",
+   "count": 6
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Computer Manufacturing",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Consulting",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Manufacturing",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Education",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Software Products",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Education",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Computer Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Education",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Education",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Education",
+   "target": "Education",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Education",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Education",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Software Products",
+   "count": 44
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "IT Services",
+   "count": 11
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Consulting",
+   "count": 10
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 7
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Software Products",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Computer Manufacturing",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Manufacturing",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Consulting",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Education",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Education",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Software Products",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Software Products",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Computer Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Software Products",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Education",
+   "count": 1
+  }
+ ]
+}
