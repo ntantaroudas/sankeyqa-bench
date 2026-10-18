@@ -1,0 +1,281 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Manager",
+  "years_experience": 25,
+  "industry": "Financial Services",
+  "age_group": "51-60",
+  "target_role": "Director",
+  "n_profiles": 450,
+  "max_nodes": 5
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 450,
+ "nodes": [
+  [
+   {
+    "label": "Financial Services",
+    "count": 450
+   }
+  ],
+  [
+   {
+    "label": "Financial Services",
+    "count": 371
+   },
+   {
+    "label": "IT Services",
+    "count": 30
+   },
+   {
+    "label": "Retail",
+    "count": 26
+   },
+   {
+    "label": "Consulting",
+    "count": 23
+   }
+  ],
+  [
+   {
+    "label": "Financial Services",
+    "count": 316
+   },
+   {
+    "label": "Consulting",
+    "count": 48
+   },
+   {
+    "label": "IT Services",
+    "count": 48
+   },
+   {
+    "label": "Retail",
+    "count": 38
+   }
+  ],
+  [
+   {
+    "label": "Financial Services",
+    "count": 201
+   },
+   {
+    "label": "Consulting",
+    "count": 101
+   },
+   {
+    "label": "Retail",
+    "count": 76
+   },
+   {
+    "label": "IT Services",
+    "count": 72
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 371
+  },
+  {
+   "stage": 0,
+   "source": "Financial Services",
+   "target": "IT Services",
+   "count": 30
+  },
+  {
+   "stage": 0,
+   "source": "Financial Services",
+   "target": "Retail",
+   "count": 26
+  },
+  {
+   "stage": 0,
+   "source": "Financial Services",
+   "target": "Consulting",
+   "count": 23
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 312
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 24
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "IT Services",
+   "count": 23
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Retail",
+   "count": 21
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Consulting",
+   "count": 20
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 19
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Retail",
+   "count": 16
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Consulting",
+   "count": 6
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Financial Services",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Consulting",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Financial Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 188
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Consulting",
+   "count": 51
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Retail",
+   "count": 47
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 31
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "IT Services",
+   "count": 30
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 28
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Retail",
+   "count": 21
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Consulting",
+   "count": 11
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 9
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Consulting",
+   "count": 8
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Financial Services",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Retail",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "IT Services",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Financial Services",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Financial Services",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Retail",
+   "count": 2
+  }
+ ]
+}
