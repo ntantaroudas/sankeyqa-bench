@@ -1,0 +1,509 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Director",
+  "years_experience": 5,
+  "industry": "Manufacturing",
+  "age_group": "21-30",
+  "target_role": "Executive",
+  "n_profiles": 800,
+  "max_nodes": 6
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 800,
+ "nodes": [
+  [
+   {
+    "label": "Manufacturing",
+    "count": 800
+   }
+  ],
+  [
+   {
+    "label": "Manufacturing",
+    "count": 680
+   },
+   {
+    "label": "Energy",
+    "count": 35
+   },
+   {
+    "label": "Retail",
+    "count": 35
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 32
+   },
+   {
+    "label": "Financial Services",
+    "count": 12
+   },
+   {
+    "label": "Consulting",
+    "count": 6
+   }
+  ],
+  [
+   {
+    "label": "Manufacturing",
+    "count": 539
+   },
+   {
+    "label": "Retail",
+    "count": 82
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 63
+   },
+   {
+    "label": "Energy",
+    "count": 54
+   },
+   {
+    "label": "Consulting",
+    "count": 32
+   },
+   {
+    "label": "Financial Services",
+    "count": 30
+   }
+  ],
+  [
+   {
+    "label": "Manufacturing",
+    "count": 339
+   },
+   {
+    "label": "Retail",
+    "count": 138
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 119
+   },
+   {
+    "label": "Energy",
+    "count": 80
+   },
+   {
+    "label": "Consulting",
+    "count": 65
+   },
+   {
+    "label": "Financial Services",
+    "count": 59
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 680
+  },
+  {
+   "stage": 0,
+   "source": "Manufacturing",
+   "target": "Energy",
+   "count": 35
+  },
+  {
+   "stage": 0,
+   "source": "Manufacturing",
+   "target": "Retail",
+   "count": 35
+  },
+  {
+   "stage": 0,
+   "source": "Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 32
+  },
+  {
+   "stage": 0,
+   "source": "Manufacturing",
+   "target": "Financial Services",
+   "count": 12
+  },
+  {
+   "stage": 0,
+   "source": "Manufacturing",
+   "target": "Consulting",
+   "count": 6
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 529
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Retail",
+   "count": 49
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 33
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Energy",
+   "count": 31
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Retail",
+   "count": 28
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 24
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Consulting",
+   "count": 24
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Energy",
+   "count": 19
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Financial Services",
+   "count": 14
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 8
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Manufacturing",
+   "count": 7
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Financial Services",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Computer Manufacturing",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Energy",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Manufacturing",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Retail",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Retail",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Financial Services",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Financial Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Energy",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Computer Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Computer Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Energy",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 309
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 79
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Retail",
+   "count": 58
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Retail",
+   "count": 54
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Energy",
+   "count": 49
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 35
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Consulting",
+   "count": 26
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Energy",
+   "count": 22
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Financial Services",
+   "count": 22
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 20
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 18
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Manufacturing",
+   "count": 13
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Manufacturing",
+   "count": 10
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Consulting",
+   "count": 10
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Retail",
+   "count": 8
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Retail",
+   "count": 8
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Consulting",
+   "count": 7
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Financial Services",
+   "count": 7
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Retail",
+   "count": 7
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Manufacturing",
+   "count": 7
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Financial Services",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Energy",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Financial Services",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Retail",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Energy",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Computer Manufacturing",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Financial Services",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Energy",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Computer Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Computer Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Consulting",
+   "count": 1
+  }
+ ]
+}

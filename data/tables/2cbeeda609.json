@@ -1,0 +1,491 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Specialist",
+  "years_experience": 15,
+  "industry": "Energy",
+  "age_group": "41-50",
+  "target_role": "Manager",
+  "n_profiles": 240,
+  "max_nodes": 7
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 240,
+ "nodes": [
+  [
+   {
+    "label": "Energy",
+    "count": 240
+   }
+  ],
+  [
+   {
+    "label": "Energy",
+    "count": 207
+   },
+   {
+    "label": "Telecommunications",
+    "count": 12
+   },
+   {
+    "label": "Public Sector",
+    "count": 10
+   },
+   {
+    "label": "Manufacturing",
+    "count": 4
+   },
+   {
+    "label": "Financial Services",
+    "count": 3
+   },
+   {
+    "label": "Healthcare",
+    "count": 2
+   },
+   {
+    "label": "IT Services",
+    "count": 2
+   }
+  ],
+  [
+   {
+    "label": "Energy",
+    "count": 156
+   },
+   {
+    "label": "Telecommunications",
+    "count": 22
+   },
+   {
+    "label": "Manufacturing",
+    "count": 20
+   },
+   {
+    "label": "Public Sector",
+    "count": 16
+   },
+   {
+    "label": "Healthcare",
+    "count": 9
+   },
+   {
+    "label": "IT Services",
+    "count": 9
+   },
+   {
+    "label": "Financial Services",
+    "count": 8
+   }
+  ],
+  [
+   {
+    "label": "Energy",
+    "count": 98
+   },
+   {
+    "label": "Manufacturing",
+    "count": 34
+   },
+   {
+    "label": "Telecommunications",
+    "count": 31
+   },
+   {
+    "label": "Public Sector",
+    "count": 23
+   },
+   {
+    "label": "IT Services",
+    "count": 20
+   },
+   {
+    "label": "Financial Services",
+    "count": 18
+   },
+   {
+    "label": "Healthcare",
+    "count": 16
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Energy",
+   "target": "Energy",
+   "count": 207
+  },
+  {
+   "stage": 0,
+   "source": "Energy",
+   "target": "Telecommunications",
+   "count": 12
+  },
+  {
+   "stage": 0,
+   "source": "Energy",
+   "target": "Public Sector",
+   "count": 10
+  },
+  {
+   "stage": 0,
+   "source": "Energy",
+   "target": "Manufacturing",
+   "count": 4
+  },
+  {
+   "stage": 0,
+   "source": "Energy",
+   "target": "Financial Services",
+   "count": 3
+  },
+  {
+   "stage": 0,
+   "source": "Energy",
+   "target": "Healthcare",
+   "count": 2
+  },
+  {
+   "stage": 0,
+   "source": "Energy",
+   "target": "IT Services",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Energy",
+   "count": 155
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Manufacturing",
+   "count": 16
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Telecommunications",
+   "count": 13
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Public Sector",
+   "count": 9
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 8
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Healthcare",
+   "count": 7
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 7
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Financial Services",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "IT Services",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "IT Services",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Energy",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Healthcare",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Financial Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Healthcare",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Energy",
+   "count": 91
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Manufacturing",
+   "count": 17
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Telecommunications",
+   "count": 15
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Public Sector",
+   "count": 12
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 12
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 11
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Financial Services",
+   "count": 8
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Healthcare",
+   "count": 7
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 7
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "IT Services",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Healthcare",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Energy",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "IT Services",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Financial Services",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Manufacturing",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "IT Services",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Public Sector",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Public Sector",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Healthcare",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Telecommunications",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Financial Services",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Public Sector",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Healthcare",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Energy",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Energy",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Healthcare",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Public Sector",
+   "count": 1
+  }
+ ]
+}

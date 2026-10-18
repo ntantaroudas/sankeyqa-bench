@@ -1,0 +1,281 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Manager",
+  "years_experience": 20,
+  "industry": "Manufacturing",
+  "age_group": "41-50",
+  "target_role": "Director",
+  "n_profiles": 320,
+  "max_nodes": 5
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 320,
+ "nodes": [
+  [
+   {
+    "label": "Manufacturing",
+    "count": 320
+   }
+  ],
+  [
+   {
+    "label": "Manufacturing",
+    "count": 287
+   },
+   {
+    "label": "Retail",
+    "count": 16
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 12
+   },
+   {
+    "label": "Energy",
+    "count": 5
+   }
+  ],
+  [
+   {
+    "label": "Manufacturing",
+    "count": 213
+   },
+   {
+    "label": "Retail",
+    "count": 38
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 35
+   },
+   {
+    "label": "Energy",
+    "count": 34
+   }
+  ],
+  [
+   {
+    "label": "Manufacturing",
+    "count": 153
+   },
+   {
+    "label": "Retail",
+    "count": 63
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 55
+   },
+   {
+    "label": "Energy",
+    "count": 49
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 287
+  },
+  {
+   "stage": 0,
+   "source": "Manufacturing",
+   "target": "Retail",
+   "count": 16
+  },
+  {
+   "stage": 0,
+   "source": "Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 12
+  },
+  {
+   "stage": 0,
+   "source": "Manufacturing",
+   "target": "Energy",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 204
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Retail",
+   "count": 30
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 27
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Energy",
+   "count": 26
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Retail",
+   "count": 7
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 6
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Manufacturing",
+   "count": 6
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Energy",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Energy",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Manufacturing",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Computer Manufacturing",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Energy",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 130
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Retail",
+   "count": 37
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 27
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 26
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Energy",
+   "count": 25
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Retail",
+   "count": 20
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Energy",
+   "count": 19
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Manufacturing",
+   "count": 14
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Manufacturing",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Energy",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Manufacturing",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Retail",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Retail",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Computer Manufacturing",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Energy",
+   "count": 2
+  }
+ ]
+}

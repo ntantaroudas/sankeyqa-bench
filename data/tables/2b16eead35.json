@@ -1,0 +1,413 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Employee",
+  "years_experience": 20,
+  "industry": "Education",
+  "age_group": "41-50",
+  "target_role": "Specialist",
+  "n_profiles": 180,
+  "max_nodes": 5
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 180,
+ "nodes": [
+  [
+   {
+    "label": "Education",
+    "count": 180
+   }
+  ],
+  [
+   {
+    "label": "Education",
+    "count": 141
+   },
+   {
+    "label": "Healthcare",
+    "count": 17
+   },
+   {
+    "label": "Public Sector",
+    "count": 10
+   },
+   {
+    "label": "Consulting",
+    "count": 6
+   },
+   {
+    "label": "Manufacturing",
+    "count": 4
+   },
+   {
+    "label": "Other",
+    "count": 2
+   }
+  ],
+  [
+   {
+    "label": "Education",
+    "count": 113
+   },
+   {
+    "label": "Healthcare",
+    "count": 27
+   },
+   {
+    "label": "Public Sector",
+    "count": 17
+   },
+   {
+    "label": "Consulting",
+    "count": 13
+   },
+   {
+    "label": "Energy",
+    "count": 6
+   },
+   {
+    "label": "Other",
+    "count": 4
+   }
+  ],
+  [
+   {
+    "label": "Education",
+    "count": 69
+   },
+   {
+    "label": "Healthcare",
+    "count": 34
+   },
+   {
+    "label": "Consulting",
+    "count": 28
+   },
+   {
+    "label": "Public Sector",
+    "count": 26
+   },
+   {
+    "label": "Manufacturing",
+    "count": 15
+   },
+   {
+    "label": "Other",
+    "count": 8
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Education",
+   "target": "Education",
+   "count": 141
+  },
+  {
+   "stage": 0,
+   "source": "Education",
+   "target": "Healthcare",
+   "count": 17
+  },
+  {
+   "stage": 0,
+   "source": "Education",
+   "target": "Public Sector",
+   "count": 10
+  },
+  {
+   "stage": 0,
+   "source": "Education",
+   "target": "Consulting",
+   "count": 6
+  },
+  {
+   "stage": 0,
+   "source": "Education",
+   "target": "Manufacturing",
+   "count": 4
+  },
+  {
+   "stage": 0,
+   "source": "Education",
+   "target": "Other",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Education",
+   "target": "Education",
+   "count": 111
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Healthcare",
+   "count": 14
+  },
+  {
+   "stage": 1,
+   "source": "Education",
+   "target": "Healthcare",
+   "count": 12
+  },
+  {
+   "stage": 1,
+   "source": "Education",
+   "target": "Consulting",
+   "count": 8
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 7
+  },
+  {
+   "stage": 1,
+   "source": "Education",
+   "target": "Public Sector",
+   "count": 6
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Education",
+   "target": "Energy",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Education",
+   "target": "Other",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Public Sector",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Other",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "Energy",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Education",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Healthcare",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Energy",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Energy",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Public Sector",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Education",
+   "count": 66
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Healthcare",
+   "count": 15
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Healthcare",
+   "count": 15
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Consulting",
+   "count": 12
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 11
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Manufacturing",
+   "count": 9
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 8
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Public Sector",
+   "count": 8
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Consulting",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Other",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Other",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Public Sector",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Manufacturing",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Public Sector",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Education",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Healthcare",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Healthcare",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Healthcare",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Education",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Manufacturing",
+   "count": 1
+  }
+ ]
+}
