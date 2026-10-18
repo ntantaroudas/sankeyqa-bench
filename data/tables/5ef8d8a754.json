@@ -1,0 +1,323 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Director",
+  "years_experience": 2,
+  "industry": "Financial Services",
+  "age_group": "21-30",
+  "target_role": "Executive",
+  "n_profiles": 60,
+  "max_nodes": 5
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 60,
+ "nodes": [
+  [
+   {
+    "label": "Financial Services",
+    "count": 60
+   }
+  ],
+  [
+   {
+    "label": "Financial Services",
+    "count": 50
+   },
+   {
+    "label": "Consulting",
+    "count": 3
+   },
+   {
+    "label": "IT Services",
+    "count": 3
+   },
+   {
+    "label": "Telecommunications",
+    "count": 2
+   },
+   {
+    "label": "Healthcare",
+    "count": 1
+   },
+   {
+    "label": "Other",
+    "count": 1
+   }
+  ],
+  [
+   {
+    "label": "Financial Services",
+    "count": 34
+   },
+   {
+    "label": "IT Services",
+    "count": 12
+   },
+   {
+    "label": "Consulting",
+    "count": 6
+   },
+   {
+    "label": "Energy",
+    "count": 3
+   },
+   {
+    "label": "Other",
+    "count": 3
+   },
+   {
+    "label": "Healthcare",
+    "count": 2
+   }
+  ],
+  [
+   {
+    "label": "Financial Services",
+    "count": 19
+   },
+   {
+    "label": "IT Services",
+    "count": 15
+   },
+   {
+    "label": "Consulting",
+    "count": 12
+   },
+   {
+    "label": "Retail",
+    "count": 6
+   },
+   {
+    "label": "Energy",
+    "count": 5
+   },
+   {
+    "label": "Other",
+    "count": 3
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 50
+  },
+  {
+   "stage": 0,
+   "source": "Financial Services",
+   "target": "Consulting",
+   "count": 3
+  },
+  {
+   "stage": 0,
+   "source": "Financial Services",
+   "target": "IT Services",
+   "count": 3
+  },
+  {
+   "stage": 0,
+   "source": "Financial Services",
+   "target": "Telecommunications",
+   "count": 2
+  },
+  {
+   "stage": 0,
+   "source": "Financial Services",
+   "target": "Healthcare",
+   "count": 1
+  },
+  {
+   "stage": 0,
+   "source": "Financial Services",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 34
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "IT Services",
+   "count": 7
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Consulting",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Other",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Energy",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Healthcare",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Healthcare",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "Energy",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Energy",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 19
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 9
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Consulting",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "IT Services",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Retail",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Energy",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Energy",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Other",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Energy",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Retail",
+   "count": 1
+  }
+ ]
+}

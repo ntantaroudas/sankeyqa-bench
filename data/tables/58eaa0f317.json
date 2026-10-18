@@ -1,0 +1,293 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Employee",
+  "years_experience": 10,
+  "industry": "Energy",
+  "age_group": "31-40",
+  "target_role": "Director",
+  "n_profiles": 800,
+  "max_nodes": 5
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 800,
+ "nodes": [
+  [
+   {
+    "label": "Energy",
+    "count": 800
+   }
+  ],
+  [
+   {
+    "label": "Energy",
+    "count": 666
+   },
+   {
+    "label": "Manufacturing",
+    "count": 55
+   },
+   {
+    "label": "Telecommunications",
+    "count": 51
+   },
+   {
+    "label": "Public Sector",
+    "count": 28
+   }
+  ],
+  [
+   {
+    "label": "Energy",
+    "count": 543
+   },
+   {
+    "label": "Telecommunications",
+    "count": 103
+   },
+   {
+    "label": "Manufacturing",
+    "count": 81
+   },
+   {
+    "label": "Public Sector",
+    "count": 73
+   }
+  ],
+  [
+   {
+    "label": "Energy",
+    "count": 439
+   },
+   {
+    "label": "Public Sector",
+    "count": 131
+   },
+   {
+    "label": "Telecommunications",
+    "count": 124
+   },
+   {
+    "label": "Manufacturing",
+    "count": 106
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Energy",
+   "target": "Energy",
+   "count": 666
+  },
+  {
+   "stage": 0,
+   "source": "Energy",
+   "target": "Manufacturing",
+   "count": 55
+  },
+  {
+   "stage": 0,
+   "source": "Energy",
+   "target": "Telecommunications",
+   "count": 51
+  },
+  {
+   "stage": 0,
+   "source": "Energy",
+   "target": "Public Sector",
+   "count": 28
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Energy",
+   "count": 536
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Telecommunications",
+   "count": 53
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 47
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Public Sector",
+   "count": 45
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 45
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Manufacturing",
+   "count": 32
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 25
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Energy",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Telecommunications",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Public Sector",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Energy",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Energy",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Energy",
+   "count": 404
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 77
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Public Sector",
+   "count": 71
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 61
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 52
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Manufacturing",
+   "count": 36
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Telecommunications",
+   "count": 32
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Energy",
+   "count": 17
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Energy",
+   "count": 11
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Telecommunications",
+   "count": 9
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Energy",
+   "count": 7
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Telecommunications",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Manufacturing",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Public Sector",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Manufacturing",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Public Sector",
+   "count": 3
+  }
+ ]
+}

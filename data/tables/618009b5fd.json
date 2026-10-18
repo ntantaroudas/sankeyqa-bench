@@ -1,0 +1,263 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Employee",
+  "years_experience": 20,
+  "industry": "Healthcare",
+  "age_group": "41-50",
+  "target_role": "Director",
+  "n_profiles": 240,
+  "max_nodes": 4
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 240,
+ "nodes": [
+  [
+   {
+    "label": "Healthcare",
+    "count": 240
+   }
+  ],
+  [
+   {
+    "label": "Healthcare",
+    "count": 212
+   },
+   {
+    "label": "Public Sector",
+    "count": 11
+   },
+   {
+    "label": "Consulting",
+    "count": 10
+   },
+   {
+    "label": "Education",
+    "count": 7
+   }
+  ],
+  [
+   {
+    "label": "Healthcare",
+    "count": 164
+   },
+   {
+    "label": "Consulting",
+    "count": 34
+   },
+   {
+    "label": "Public Sector",
+    "count": 24
+   },
+   {
+    "label": "Education",
+    "count": 18
+   }
+  ],
+  [
+   {
+    "label": "Healthcare",
+    "count": 103
+   },
+   {
+    "label": "Consulting",
+    "count": 58
+   },
+   {
+    "label": "Public Sector",
+    "count": 41
+   },
+   {
+    "label": "Education",
+    "count": 38
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Healthcare",
+   "target": "Healthcare",
+   "count": 212
+  },
+  {
+   "stage": 0,
+   "source": "Healthcare",
+   "target": "Public Sector",
+   "count": 11
+  },
+  {
+   "stage": 0,
+   "source": "Healthcare",
+   "target": "Consulting",
+   "count": 10
+  },
+  {
+   "stage": 0,
+   "source": "Healthcare",
+   "target": "Education",
+   "count": 7
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Healthcare",
+   "count": 162
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Consulting",
+   "count": 26
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Public Sector",
+   "count": 13
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Education",
+   "count": 11
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 11
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 8
+  },
+  {
+   "stage": 1,
+   "source": "Education",
+   "target": "Education",
+   "count": 6
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Education",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Healthcare",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Education",
+   "target": "Healthcare",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Healthcare",
+   "count": 94
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Consulting",
+   "count": 29
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 22
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Education",
+   "count": 22
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Public Sector",
+   "count": 19
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Education",
+   "count": 10
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 10
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 9
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Consulting",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Education",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Healthcare",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Healthcare",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Public Sector",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Healthcare",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Education",
+   "count": 1
+  }
+ ]
+}

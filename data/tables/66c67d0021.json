@@ -1,0 +1,407 @@
+{
+ "config": {
+  "map_type": "role",
+  "start_role": "Manager",
+  "years_experience": 10,
+  "industry": "Financial Services",
+  "age_group": "31-40",
+  "target_role": "Executive",
+  "n_profiles": 800,
+  "max_nodes": 4
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 800,
+ "nodes": [
+  [
+   {
+    "label": "Manager",
+    "count": 800
+   }
+  ],
+  [
+   {
+    "label": "Manager",
+    "count": 496
+   },
+   {
+    "label": "Director",
+    "count": 162
+   },
+   {
+    "label": "Executive",
+    "count": 55
+   },
+   {
+    "label": "Consultant",
+    "count": 47
+   },
+   {
+    "label": "Other",
+    "count": 40
+   }
+  ],
+  [
+   {
+    "label": "Manager",
+    "count": 302
+   },
+   {
+    "label": "Director",
+    "count": 196
+   },
+   {
+    "label": "Executive",
+    "count": 165
+   },
+   {
+    "label": "Other",
+    "count": 70
+   },
+   {
+    "label": "Consultant",
+    "count": 67
+   }
+  ],
+  [
+   {
+    "label": "Executive",
+    "count": 279
+   },
+   {
+    "label": "Director",
+    "count": 196
+   },
+   {
+    "label": "Other",
+    "count": 112
+   },
+   {
+    "label": "Manager",
+    "count": 109
+   },
+   {
+    "label": "Consultant",
+    "count": 104
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Manager",
+   "target": "Manager",
+   "count": 496
+  },
+  {
+   "stage": 0,
+   "source": "Manager",
+   "target": "Director",
+   "count": 162
+  },
+  {
+   "stage": 0,
+   "source": "Manager",
+   "target": "Executive",
+   "count": 55
+  },
+  {
+   "stage": 0,
+   "source": "Manager",
+   "target": "Consultant",
+   "count": 47
+  },
+  {
+   "stage": 0,
+   "source": "Manager",
+   "target": "Other",
+   "count": 40
+  },
+  {
+   "stage": 1,
+   "source": "Manager",
+   "target": "Manager",
+   "count": 282
+  },
+  {
+   "stage": 1,
+   "source": "Manager",
+   "target": "Director",
+   "count": 108
+  },
+  {
+   "stage": 1,
+   "source": "Director",
+   "target": "Director",
+   "count": 82
+  },
+  {
+   "stage": 1,
+   "source": "Director",
+   "target": "Executive",
+   "count": 60
+  },
+  {
+   "stage": 1,
+   "source": "Executive",
+   "target": "Executive",
+   "count": 50
+  },
+  {
+   "stage": 1,
+   "source": "Manager",
+   "target": "Executive",
+   "count": 50
+  },
+  {
+   "stage": 1,
+   "source": "Consultant",
+   "target": "Consultant",
+   "count": 32
+  },
+  {
+   "stage": 1,
+   "source": "Manager",
+   "target": "Other",
+   "count": 32
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "Other",
+   "count": 29
+  },
+  {
+   "stage": 1,
+   "source": "Manager",
+   "target": "Consultant",
+   "count": 24
+  },
+  {
+   "stage": 1,
+   "source": "Director",
+   "target": "Manager",
+   "count": 10
+  },
+  {
+   "stage": 1,
+   "source": "Director",
+   "target": "Consultant",
+   "count": 6
+  },
+  {
+   "stage": 1,
+   "source": "Consultant",
+   "target": "Manager",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Consultant",
+   "target": "Other",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "Manager",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Director",
+   "target": "Other",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Executive",
+   "target": "Consultant",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Consultant",
+   "target": "Executive",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "Director",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Consultant",
+   "target": "Director",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "Executive",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Executive",
+   "target": "Director",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "Consultant",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Executive",
+   "target": "Executive",
+   "count": 134
+  },
+  {
+   "stage": 2,
+   "source": "Manager",
+   "target": "Director",
+   "count": 117
+  },
+  {
+   "stage": 2,
+   "source": "Director",
+   "target": "Executive",
+   "count": 91
+  },
+  {
+   "stage": 2,
+   "source": "Manager",
+   "target": "Manager",
+   "count": 83
+  },
+  {
+   "stage": 2,
+   "source": "Director",
+   "target": "Director",
+   "count": 67
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Other",
+   "count": 54
+  },
+  {
+   "stage": 2,
+   "source": "Consultant",
+   "target": "Consultant",
+   "count": 53
+  },
+  {
+   "stage": 2,
+   "source": "Manager",
+   "target": "Executive",
+   "count": 47
+  },
+  {
+   "stage": 2,
+   "source": "Manager",
+   "target": "Other",
+   "count": 31
+  },
+  {
+   "stage": 2,
+   "source": "Manager",
+   "target": "Consultant",
+   "count": 24
+  },
+  {
+   "stage": 2,
+   "source": "Director",
+   "target": "Other",
+   "count": 14
+  },
+  {
+   "stage": 2,
+   "source": "Director",
+   "target": "Manager",
+   "count": 13
+  },
+  {
+   "stage": 2,
+   "source": "Executive",
+   "target": "Consultant",
+   "count": 13
+  },
+  {
+   "stage": 2,
+   "source": "Director",
+   "target": "Consultant",
+   "count": 11
+  },
+  {
+   "stage": 2,
+   "source": "Executive",
+   "target": "Other",
+   "count": 10
+  },
+  {
+   "stage": 2,
+   "source": "Executive",
+   "target": "Director",
+   "count": 8
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Manager",
+   "count": 7
+  },
+  {
+   "stage": 2,
+   "source": "Consultant",
+   "target": "Manager",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Consultant",
+   "target": "Executive",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Consultant",
+   "target": "Other",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Consultant",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Director",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Executive",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Consultant",
+   "target": "Director",
+   "count": 1
+  }
+ ]
+}

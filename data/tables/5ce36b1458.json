@@ -1,0 +1,525 @@
+{
+ "config": {
+  "map_type": "role",
+  "start_role": "Manager",
+  "years_experience": 20,
+  "industry": "Software Products",
+  "age_group": "41-50",
+  "target_role": "Director",
+  "n_profiles": 800,
+  "max_nodes": 7
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 800,
+ "nodes": [
+  [
+   {
+    "label": "Manager",
+    "count": 800
+   }
+  ],
+  [
+   {
+    "label": "Manager",
+    "count": 578
+   },
+   {
+    "label": "Director",
+    "count": 140
+   },
+   {
+    "label": "Team Lead",
+    "count": 30
+   },
+   {
+    "label": "Consultant",
+    "count": 27
+   },
+   {
+    "label": "Executive",
+    "count": 15
+   },
+   {
+    "label": "Founder",
+    "count": 10
+   }
+  ],
+  [
+   {
+    "label": "Manager",
+    "count": 338
+   },
+   {
+    "label": "Director",
+    "count": 258
+   },
+   {
+    "label": "Executive",
+    "count": 69
+   },
+   {
+    "label": "Consultant",
+    "count": 60
+   },
+   {
+    "label": "Team Lead",
+    "count": 45
+   },
+   {
+    "label": "Founder",
+    "count": 28
+   },
+   {
+    "label": "Employee",
+    "count": 1
+   },
+   {
+    "label": "Other",
+    "count": 1
+   }
+  ],
+  [
+   {
+    "label": "Director",
+    "count": 241
+   },
+   {
+    "label": "Executive",
+    "count": 205
+   },
+   {
+    "label": "Manager",
+    "count": 193
+   },
+   {
+    "label": "Consultant",
+    "count": 75
+   },
+   {
+    "label": "Founder",
+    "count": 45
+   },
+   {
+    "label": "Team Lead",
+    "count": 33
+   },
+   {
+    "label": "Specialist",
+    "count": 7
+   },
+   {
+    "label": "Other",
+    "count": 1
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Manager",
+   "target": "Manager",
+   "count": 578
+  },
+  {
+   "stage": 0,
+   "source": "Manager",
+   "target": "Director",
+   "count": 140
+  },
+  {
+   "stage": 0,
+   "source": "Manager",
+   "target": "Team Lead",
+   "count": 30
+  },
+  {
+   "stage": 0,
+   "source": "Manager",
+   "target": "Consultant",
+   "count": 27
+  },
+  {
+   "stage": 0,
+   "source": "Manager",
+   "target": "Executive",
+   "count": 15
+  },
+  {
+   "stage": 0,
+   "source": "Manager",
+   "target": "Founder",
+   "count": 10
+  },
+  {
+   "stage": 1,
+   "source": "Manager",
+   "target": "Manager",
+   "count": 330
+  },
+  {
+   "stage": 1,
+   "source": "Manager",
+   "target": "Director",
+   "count": 154
+  },
+  {
+   "stage": 1,
+   "source": "Director",
+   "target": "Director",
+   "count": 99
+  },
+  {
+   "stage": 1,
+   "source": "Manager",
+   "target": "Consultant",
+   "count": 34
+  },
+  {
+   "stage": 1,
+   "source": "Director",
+   "target": "Executive",
+   "count": 27
+  },
+  {
+   "stage": 1,
+   "source": "Manager",
+   "target": "Executive",
+   "count": 26
+  },
+  {
+   "stage": 1,
+   "source": "Manager",
+   "target": "Team Lead",
+   "count": 22
+  },
+  {
+   "stage": 1,
+   "source": "Team Lead",
+   "target": "Team Lead",
+   "count": 21
+  },
+  {
+   "stage": 1,
+   "source": "Consultant",
+   "target": "Consultant",
+   "count": 20
+  },
+  {
+   "stage": 1,
+   "source": "Executive",
+   "target": "Executive",
+   "count": 14
+  },
+  {
+   "stage": 1,
+   "source": "Manager",
+   "target": "Founder",
+   "count": 12
+  },
+  {
+   "stage": 1,
+   "source": "Founder",
+   "target": "Founder",
+   "count": 9
+  },
+  {
+   "stage": 1,
+   "source": "Director",
+   "target": "Founder",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Director",
+   "target": "Manager",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Director",
+   "target": "Consultant",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Team Lead",
+   "target": "Director",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Consultant",
+   "target": "Director",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Consultant",
+   "target": "Executive",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Consultant",
+   "target": "Team Lead",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Team Lead",
+   "target": "Consultant",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Team Lead",
+   "target": "Manager",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Consultant",
+   "target": "Employee",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Executive",
+   "target": "Founder",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Founder",
+   "target": "Manager",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Team Lead",
+   "target": "Founder",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Team Lead",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Manager",
+   "target": "Manager",
+   "count": 157
+  },
+  {
+   "stage": 2,
+   "source": "Manager",
+   "target": "Director",
+   "count": 121
+  },
+  {
+   "stage": 2,
+   "source": "Director",
+   "target": "Executive",
+   "count": 118
+  },
+  {
+   "stage": 2,
+   "source": "Director",
+   "target": "Director",
+   "count": 109
+  },
+  {
+   "stage": 2,
+   "source": "Executive",
+   "target": "Executive",
+   "count": 63
+  },
+  {
+   "stage": 2,
+   "source": "Consultant",
+   "target": "Consultant",
+   "count": 43
+  },
+  {
+   "stage": 2,
+   "source": "Founder",
+   "target": "Founder",
+   "count": 22
+  },
+  {
+   "stage": 2,
+   "source": "Team Lead",
+   "target": "Manager",
+   "count": 21
+  },
+  {
+   "stage": 2,
+   "source": "Manager",
+   "target": "Consultant",
+   "count": 20
+  },
+  {
+   "stage": 2,
+   "source": "Manager",
+   "target": "Executive",
+   "count": 20
+  },
+  {
+   "stage": 2,
+   "source": "Team Lead",
+   "target": "Team Lead",
+   "count": 16
+  },
+  {
+   "stage": 2,
+   "source": "Manager",
+   "target": "Team Lead",
+   "count": 12
+  },
+  {
+   "stage": 2,
+   "source": "Director",
+   "target": "Founder",
+   "count": 11
+  },
+  {
+   "stage": 2,
+   "source": "Director",
+   "target": "Consultant",
+   "count": 10
+  },
+  {
+   "stage": 2,
+   "source": "Director",
+   "target": "Manager",
+   "count": 10
+  },
+  {
+   "stage": 2,
+   "source": "Manager",
+   "target": "Founder",
+   "count": 8
+  },
+  {
+   "stage": 2,
+   "source": "Consultant",
+   "target": "Director",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Consultant",
+   "target": "Manager",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Team Lead",
+   "target": "Director",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Consultant",
+   "target": "Executive",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Executive",
+   "target": "Founder",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Consultant",
+   "target": "Specialist",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Consultant",
+   "target": "Team Lead",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Executive",
+   "target": "Consultant",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Founder",
+   "target": "Specialist",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Founder",
+   "target": "Team Lead",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Team Lead",
+   "target": "Specialist",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Consultant",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Employee",
+   "target": "Team Lead",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Executive",
+   "target": "Director",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Founder",
+   "target": "Director",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Founder",
+   "target": "Manager",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Specialist",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Team Lead",
+   "target": "Executive",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Team Lead",
+   "target": "Founder",
+   "count": 1
+  }
+ ]
+}

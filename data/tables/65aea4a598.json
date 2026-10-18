@@ -1,0 +1,443 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Employee",
+  "years_experience": 10,
+  "industry": "Software Products",
+  "age_group": "21-30",
+  "target_role": "Director",
+  "n_profiles": 450,
+  "max_nodes": 7
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 450,
+ "nodes": [
+  [
+   {
+    "label": "Software Products",
+    "count": 450
+   }
+  ],
+  [
+   {
+    "label": "Software Products",
+    "count": 387
+   },
+   {
+    "label": "Consulting",
+    "count": 24
+   },
+   {
+    "label": "IT Services",
+    "count": 17
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 11
+   },
+   {
+    "label": "Manufacturing",
+    "count": 5
+   },
+   {
+    "label": "Energy",
+    "count": 3
+   },
+   {
+    "label": "Healthcare",
+    "count": 3
+   }
+  ],
+  [
+   {
+    "label": "Software Products",
+    "count": 329
+   },
+   {
+    "label": "IT Services",
+    "count": 39
+   },
+   {
+    "label": "Consulting",
+    "count": 32
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 20
+   },
+   {
+    "label": "Healthcare",
+    "count": 14
+   },
+   {
+    "label": "Energy",
+    "count": 8
+   },
+   {
+    "label": "Manufacturing",
+    "count": 8
+   }
+  ],
+  [
+   {
+    "label": "Software Products",
+    "count": 248
+   },
+   {
+    "label": "IT Services",
+    "count": 54
+   },
+   {
+    "label": "Consulting",
+    "count": 52
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 42
+   },
+   {
+    "label": "Healthcare",
+    "count": 24
+   },
+   {
+    "label": "Energy",
+    "count": 15
+   },
+   {
+    "label": "Manufacturing",
+    "count": 15
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Software Products",
+   "target": "Software Products",
+   "count": 387
+  },
+  {
+   "stage": 0,
+   "source": "Software Products",
+   "target": "Consulting",
+   "count": 24
+  },
+  {
+   "stage": 0,
+   "source": "Software Products",
+   "target": "IT Services",
+   "count": 17
+  },
+  {
+   "stage": 0,
+   "source": "Software Products",
+   "target": "Computer Manufacturing",
+   "count": 11
+  },
+  {
+   "stage": 0,
+   "source": "Software Products",
+   "target": "Manufacturing",
+   "count": 5
+  },
+  {
+   "stage": 0,
+   "source": "Software Products",
+   "target": "Energy",
+   "count": 3
+  },
+  {
+   "stage": 0,
+   "source": "Software Products",
+   "target": "Healthcare",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Software Products",
+   "count": 329
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "IT Services",
+   "count": 22
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 21
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 16
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Computer Manufacturing",
+   "count": 10
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Consulting",
+   "count": 10
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Healthcare",
+   "count": 10
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 9
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Energy",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Energy",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Healthcare",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Manufacturing",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Computer Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Energy",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Healthcare",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Software Products",
+   "count": 241
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 27
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Consulting",
+   "count": 27
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Computer Manufacturing",
+   "count": 24
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 23
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "IT Services",
+   "count": 21
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 14
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Healthcare",
+   "count": 12
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Energy",
+   "count": 8
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 7
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Healthcare",
+   "count": 7
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Manufacturing",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Healthcare",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Energy",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Software Products",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Computer Manufacturing",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Energy",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Manufacturing",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Software Products",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Software Products",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Computer Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Healthcare",
+   "count": 1
+  }
+ ]
+}
