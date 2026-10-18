@@ -387,7 +387,7 @@ def main(argv: list[str]) -> int:
     src, out = Path(argv[1]), Path(argv[2])
     blocks = json.loads(src.read_text(encoding="utf-8"))["blocks"]
     title = text_of(next(b for b in blocks if b["type"] == "title")["runs"])
-    authors = "Nikolaos D. Tantaroudas, Andrew J. McCracken, Ilias Karachalios, Evangelos Papatheou, Vasileios Pastrikakis"
+    authors = "Nikolaos D. Tantaroudas, Andrew J. McCracken, Ilias Karachalios, Evangelos Papatheou"
     info = fill(blocks, out, title, authors)
     print(f"ORE template: {out} ({out.stat().st_size} bytes); {info['figures']} figures, "
           f"{info['hyperlinks']} hyperlinks; template parts unchanged: {len(info['unchanged_parts'])}; "
