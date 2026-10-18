@@ -1,0 +1,407 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Employee",
+  "years_experience": 15,
+  "industry": "Healthcare",
+  "age_group": "31-40",
+  "target_role": "Manager",
+  "n_profiles": 320,
+  "max_nodes": 5
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 320,
+ "nodes": [
+  [
+   {
+    "label": "Healthcare",
+    "count": 320
+   }
+  ],
+  [
+   {
+    "label": "Healthcare",
+    "count": 291
+   },
+   {
+    "label": "Consulting",
+    "count": 8
+   },
+   {
+    "label": "Public Sector",
+    "count": 8
+   },
+   {
+    "label": "Education",
+    "count": 7
+   },
+   {
+    "label": "IT Services",
+    "count": 3
+   },
+   {
+    "label": "Other",
+    "count": 3
+   }
+  ],
+  [
+   {
+    "label": "Healthcare",
+    "count": 223
+   },
+   {
+    "label": "Consulting",
+    "count": 31
+   },
+   {
+    "label": "Education",
+    "count": 30
+   },
+   {
+    "label": "Public Sector",
+    "count": 18
+   },
+   {
+    "label": "Other",
+    "count": 11
+   },
+   {
+    "label": "Retail",
+    "count": 7
+   }
+  ],
+  [
+   {
+    "label": "Healthcare",
+    "count": 139
+   },
+   {
+    "label": "Education",
+    "count": 51
+   },
+   {
+    "label": "Consulting",
+    "count": 50
+   },
+   {
+    "label": "Public Sector",
+    "count": 36
+   },
+   {
+    "label": "Other",
+    "count": 24
+   },
+   {
+    "label": "Retail",
+    "count": 20
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Healthcare",
+   "target": "Healthcare",
+   "count": 291
+  },
+  {
+   "stage": 0,
+   "source": "Healthcare",
+   "target": "Consulting",
+   "count": 8
+  },
+  {
+   "stage": 0,
+   "source": "Healthcare",
+   "target": "Public Sector",
+   "count": 8
+  },
+  {
+   "stage": 0,
+   "source": "Healthcare",
+   "target": "Education",
+   "count": 7
+  },
+  {
+   "stage": 0,
+   "source": "Healthcare",
+   "target": "IT Services",
+   "count": 3
+  },
+  {
+   "stage": 0,
+   "source": "Healthcare",
+   "target": "Other",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Healthcare",
+   "count": 223
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Consulting",
+   "count": 25
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Education",
+   "count": 22
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Public Sector",
+   "count": 10
+  },
+  {
+   "stage": 1,
+   "source": "Education",
+   "target": "Education",
+   "count": 7
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 7
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 6
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Retail",
+   "count": 6
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Other",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Other",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "Other",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Education",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Healthcare",
+   "count": 130
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Education",
+   "count": 29
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Consulting",
+   "count": 23
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 18
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Education",
+   "count": 17
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Public Sector",
+   "count": 16
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Other",
+   "count": 14
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Retail",
+   "count": 11
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 11
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Retail",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Healthcare",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Other",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Consulting",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Education",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Other",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Public Sector",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Healthcare",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Other",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Education",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Healthcare",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Education",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Healthcare",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Consulting",
+   "count": 1
+  }
+ ]
+}

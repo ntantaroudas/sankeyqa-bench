@@ -1,0 +1,515 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Team Lead",
+  "years_experience": 2,
+  "industry": "Retail",
+  "age_group": "21-30",
+  "target_role": "Manager",
+  "n_profiles": 320,
+  "max_nodes": 7
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 320,
+ "nodes": [
+  [
+   {
+    "label": "Retail",
+    "count": 320
+   }
+  ],
+  [
+   {
+    "label": "Retail",
+    "count": 247
+   },
+   {
+    "label": "Financial Services",
+    "count": 23
+   },
+   {
+    "label": "Manufacturing",
+    "count": 20
+   },
+   {
+    "label": "Consulting",
+    "count": 13
+   },
+   {
+    "label": "Telecommunications",
+    "count": 8
+   },
+   {
+    "label": "IT Services",
+    "count": 5
+   },
+   {
+    "label": "Energy",
+    "count": 4
+   }
+  ],
+  [
+   {
+    "label": "Retail",
+    "count": 201
+   },
+   {
+    "label": "Consulting",
+    "count": 31
+   },
+   {
+    "label": "Financial Services",
+    "count": 29
+   },
+   {
+    "label": "Manufacturing",
+    "count": 24
+   },
+   {
+    "label": "Energy",
+    "count": 13
+   },
+   {
+    "label": "Telecommunications",
+    "count": 12
+   },
+   {
+    "label": "IT Services",
+    "count": 10
+   }
+  ],
+  [
+   {
+    "label": "Retail",
+    "count": 135
+   },
+   {
+    "label": "Consulting",
+    "count": 50
+   },
+   {
+    "label": "Financial Services",
+    "count": 39
+   },
+   {
+    "label": "Manufacturing",
+    "count": 34
+   },
+   {
+    "label": "IT Services",
+    "count": 23
+   },
+   {
+    "label": "Telecommunications",
+    "count": 20
+   },
+   {
+    "label": "Energy",
+    "count": 19
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Retail",
+   "target": "Retail",
+   "count": 247
+  },
+  {
+   "stage": 0,
+   "source": "Retail",
+   "target": "Financial Services",
+   "count": 23
+  },
+  {
+   "stage": 0,
+   "source": "Retail",
+   "target": "Manufacturing",
+   "count": 20
+  },
+  {
+   "stage": 0,
+   "source": "Retail",
+   "target": "Consulting",
+   "count": 13
+  },
+  {
+   "stage": 0,
+   "source": "Retail",
+   "target": "Telecommunications",
+   "count": 8
+  },
+  {
+   "stage": 0,
+   "source": "Retail",
+   "target": "IT Services",
+   "count": 5
+  },
+  {
+   "stage": 0,
+   "source": "Retail",
+   "target": "Energy",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Retail",
+   "count": 199
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 19
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Consulting",
+   "count": 19
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 14
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 10
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Manufacturing",
+   "count": 8
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Financial Services",
+   "count": 7
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Energy",
+   "count": 6
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Energy",
+   "target": "Energy",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "IT Services",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Telecommunications",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Energy",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Financial Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Financial Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Financial Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Energy",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Retail",
+   "count": 129
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 24
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Consulting",
+   "count": 19
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 18
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 17
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Financial Services",
+   "count": 17
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Manufacturing",
+   "count": 15
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Energy",
+   "count": 9
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "IT Services",
+   "count": 9
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 9
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 7
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Energy",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Telecommunications",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Financial Services",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "IT Services",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Consulting",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Retail",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Telecommunications",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Energy",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Energy",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Retail",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Energy",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "IT Services",
+   "count": 1
+  }
+ ]
+}

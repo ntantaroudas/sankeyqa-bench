@@ -1,0 +1,277 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Employee",
+  "years_experience": 10,
+  "industry": "Financial Services",
+  "age_group": "31-40",
+  "target_role": "Team Lead",
+  "n_profiles": 60,
+  "max_nodes": 6
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 60,
+ "nodes": [
+  [
+   {
+    "label": "Financial Services",
+    "count": 60
+   }
+  ],
+  [
+   {
+    "label": "Financial Services",
+    "count": 51
+   },
+   {
+    "label": "Consulting",
+    "count": 5
+   },
+   {
+    "label": "Retail",
+    "count": 2
+   },
+   {
+    "label": "IT Services",
+    "count": 1
+   },
+   {
+    "label": "Software Products",
+    "count": 1
+   }
+  ],
+  [
+   {
+    "label": "Financial Services",
+    "count": 48
+   },
+   {
+    "label": "Consulting",
+    "count": 7
+   },
+   {
+    "label": "IT Services",
+    "count": 2
+   },
+   {
+    "label": "Software Products",
+    "count": 2
+   },
+   {
+    "label": "Retail",
+    "count": 1
+   }
+  ],
+  [
+   {
+    "label": "Financial Services",
+    "count": 32
+   },
+   {
+    "label": "Consulting",
+    "count": 9
+   },
+   {
+    "label": "IT Services",
+    "count": 7
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 5
+   },
+   {
+    "label": "Retail",
+    "count": 4
+   },
+   {
+    "label": "Software Products",
+    "count": 2
+   },
+   {
+    "label": "Other",
+    "count": 1
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 51
+  },
+  {
+   "stage": 0,
+   "source": "Financial Services",
+   "target": "Consulting",
+   "count": 5
+  },
+  {
+   "stage": 0,
+   "source": "Financial Services",
+   "target": "Retail",
+   "count": 2
+  },
+  {
+   "stage": 0,
+   "source": "Financial Services",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 0,
+   "source": "Financial Services",
+   "target": "Software Products",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 47
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Software Products",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Financial Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Software Products",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 30
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Consulting",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Computer Manufacturing",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "IT Services",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Retail",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Financial Services",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Software Products",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Financial Services",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Computer Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Software Products",
+   "count": 1
+  }
+ ]
+}
