@@ -1,0 +1,377 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Director",
+  "years_experience": 10,
+  "industry": "Consulting",
+  "age_group": "31-40",
+  "target_role": "Executive",
+  "n_profiles": 1200,
+  "max_nodes": 4
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 1200,
+ "nodes": [
+  [
+   {
+    "label": "Consulting",
+    "count": 1200
+   }
+  ],
+  [
+   {
+    "label": "Consulting",
+    "count": 1000
+   },
+   {
+    "label": "Public Sector",
+    "count": 61
+   },
+   {
+    "label": "IT Services",
+    "count": 55
+   },
+   {
+    "label": "Other",
+    "count": 46
+   },
+   {
+    "label": "Financial Services",
+    "count": 38
+   }
+  ],
+  [
+   {
+    "label": "Consulting",
+    "count": 849
+   },
+   {
+    "label": "IT Services",
+    "count": 104
+   },
+   {
+    "label": "Public Sector",
+    "count": 88
+   },
+   {
+    "label": "Financial Services",
+    "count": 87
+   },
+   {
+    "label": "Other",
+    "count": 72
+   }
+  ],
+  [
+   {
+    "label": "Consulting",
+    "count": 568
+   },
+   {
+    "label": "Financial Services",
+    "count": 177
+   },
+   {
+    "label": "IT Services",
+    "count": 168
+   },
+   {
+    "label": "Public Sector",
+    "count": 152
+   },
+   {
+    "label": "Other",
+    "count": 135
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 1000
+  },
+  {
+   "stage": 0,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 61
+  },
+  {
+   "stage": 0,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 55
+  },
+  {
+   "stage": 0,
+   "source": "Consulting",
+   "target": "Other",
+   "count": 46
+  },
+  {
+   "stage": 0,
+   "source": "Consulting",
+   "target": "Financial Services",
+   "count": 38
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 846
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Financial Services",
+   "count": 53
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 53
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 53
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "Other",
+   "count": 44
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 43
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 34
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 31
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Other",
+   "count": 24
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "IT Services",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Other",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "IT Services",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Financial Services",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Public Sector",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Financial Services",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 518
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Financial Services",
+   "count": 115
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 94
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 65
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 63
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 60
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Other",
+   "count": 57
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 56
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Other",
+   "count": 45
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Consulting",
+   "count": 18
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Other",
+   "count": 13
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Consulting",
+   "count": 12
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Public Sector",
+   "count": 11
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Consulting",
+   "count": 10
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Other",
+   "count": 10
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Other",
+   "count": 10
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Public Sector",
+   "count": 10
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Consulting",
+   "count": 10
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Public Sector",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "IT Services",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "IT Services",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "IT Services",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Financial Services",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Financial Services",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Financial Services",
+   "count": 2
+  }
+ ]
+}

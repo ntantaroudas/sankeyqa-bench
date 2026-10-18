@@ -1,0 +1,431 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Employee",
+  "years_experience": 5,
+  "industry": "Software Products",
+  "age_group": "21-30",
+  "target_role": "Executive",
+  "n_profiles": 240,
+  "max_nodes": 5
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 240,
+ "nodes": [
+  [
+   {
+    "label": "Software Products",
+    "count": 240
+   }
+  ],
+  [
+   {
+    "label": "Software Products",
+    "count": 196
+   },
+   {
+    "label": "IT Services",
+    "count": 13
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 12
+   },
+   {
+    "label": "Consulting",
+    "count": 9
+   },
+   {
+    "label": "Retail",
+    "count": 6
+   },
+   {
+    "label": "Other",
+    "count": 4
+   }
+  ],
+  [
+   {
+    "label": "Software Products",
+    "count": 143
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 30
+   },
+   {
+    "label": "Consulting",
+    "count": 24
+   },
+   {
+    "label": "IT Services",
+    "count": 24
+   },
+   {
+    "label": "Retail",
+    "count": 10
+   },
+   {
+    "label": "Other",
+    "count": 9
+   }
+  ],
+  [
+   {
+    "label": "Software Products",
+    "count": 115
+   },
+   {
+    "label": "Consulting",
+    "count": 41
+   },
+   {
+    "label": "Computer Manufacturing",
+    "count": 28
+   },
+   {
+    "label": "IT Services",
+    "count": 25
+   },
+   {
+    "label": "Public Sector",
+    "count": 17
+   },
+   {
+    "label": "Other",
+    "count": 14
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Software Products",
+   "target": "Software Products",
+   "count": 196
+  },
+  {
+   "stage": 0,
+   "source": "Software Products",
+   "target": "IT Services",
+   "count": 13
+  },
+  {
+   "stage": 0,
+   "source": "Software Products",
+   "target": "Computer Manufacturing",
+   "count": 12
+  },
+  {
+   "stage": 0,
+   "source": "Software Products",
+   "target": "Consulting",
+   "count": 9
+  },
+  {
+   "stage": 0,
+   "source": "Software Products",
+   "target": "Retail",
+   "count": 6
+  },
+  {
+   "stage": 0,
+   "source": "Software Products",
+   "target": "Other",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Software Products",
+   "count": 140
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Computer Manufacturing",
+   "count": 20
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Consulting",
+   "count": 17
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 10
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 10
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "IT Services",
+   "count": 10
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 6
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Retail",
+   "count": 6
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Other",
+   "count": 6
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "Other",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Retail",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Software Products",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Software Products",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Software Products",
+   "count": 99
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 18
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 16
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Consulting",
+   "count": 15
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 11
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "IT Services",
+   "count": 11
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Computer Manufacturing",
+   "count": 10
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Software Products",
+   "count": 7
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Software Products",
+   "count": 7
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Public Sector",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Other",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Public Sector",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Consulting",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Public Sector",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Other",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Public Sector",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Other",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Other",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Consulting",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Other",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Software Products",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Computer Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Public Sector",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Computer Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Retail",
+   "target": "Software Products",
+   "count": 1
+  }
+ ]
+}

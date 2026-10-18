@@ -1,0 +1,401 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Director",
+  "years_experience": 20,
+  "industry": "Consulting",
+  "age_group": "41-50",
+  "target_role": "Executive",
+  "n_profiles": 120,
+  "max_nodes": 5
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 120,
+ "nodes": [
+  [
+   {
+    "label": "Consulting",
+    "count": 120
+   }
+  ],
+  [
+   {
+    "label": "Consulting",
+    "count": 94
+   },
+   {
+    "label": "Public Sector",
+    "count": 8
+   },
+   {
+    "label": "Financial Services",
+    "count": 5
+   },
+   {
+    "label": "Other",
+    "count": 5
+   },
+   {
+    "label": "Retail",
+    "count": 4
+   },
+   {
+    "label": "Telecommunications",
+    "count": 4
+   }
+  ],
+  [
+   {
+    "label": "Consulting",
+    "count": 72
+   },
+   {
+    "label": "Public Sector",
+    "count": 12
+   },
+   {
+    "label": "IT Services",
+    "count": 11
+   },
+   {
+    "label": "Other",
+    "count": 10
+   },
+   {
+    "label": "Financial Services",
+    "count": 8
+   },
+   {
+    "label": "Manufacturing",
+    "count": 7
+   }
+  ],
+  [
+   {
+    "label": "Consulting",
+    "count": 46
+   },
+   {
+    "label": "Financial Services",
+    "count": 17
+   },
+   {
+    "label": "IT Services",
+    "count": 15
+   },
+   {
+    "label": "Other",
+    "count": 15
+   },
+   {
+    "label": "Retail",
+    "count": 14
+   },
+   {
+    "label": "Public Sector",
+    "count": 13
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 94
+  },
+  {
+   "stage": 0,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 8
+  },
+  {
+   "stage": 0,
+   "source": "Consulting",
+   "target": "Financial Services",
+   "count": 5
+  },
+  {
+   "stage": 0,
+   "source": "Consulting",
+   "target": "Other",
+   "count": 5
+  },
+  {
+   "stage": 0,
+   "source": "Consulting",
+   "target": "Retail",
+   "count": 4
+  },
+  {
+   "stage": 0,
+   "source": "Consulting",
+   "target": "Telecommunications",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 70
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 7
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 6
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Manufacturing",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Other",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 4
+  },
+  {
+   "stage": 1,
+   "source": "Consulting",
+   "target": "Financial Services",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Other",
+   "count": 3
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "IT Services",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "Manufacturing",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Other",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Financial Services",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Other",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Other",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Retail",
+   "target": "Public Sector",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Financial Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Consulting",
+   "count": 43
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Financial Services",
+   "count": 8
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Public Sector",
+   "count": 8
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Financial Services",
+   "count": 7
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Retail",
+   "count": 7
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "IT Services",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Other",
+   "count": 5
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Consulting",
+   "target": "Retail",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Other",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Other",
+   "target": "Other",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Retail",
+   "count": 3
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Other",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "IT Services",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "IT Services",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Other",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Financial Services",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Financial Services",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Public Sector",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Consulting",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Retail",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Financial Services",
+   "count": 1
+  }
+ ]
+}
