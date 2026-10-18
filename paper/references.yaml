@@ -1,0 +1,204 @@
+# References of the SankeyQA articles. Every DOI is checked against Crossref (or DataCite for arXiv and Zenodo)
+# by paper/check_references.py, which compares the registered title, year and first author with the entry below.
+# Entries without a DOI (PMLR and JMLR proceedings) are checked against their official page.
+# Style: authors, title, venue, year, volume, pages, link. No colons or semicolons (the authors' style).
+
+tantaroudas2026ore:
+  text: "Tantaroudas ND, McCracken AJ, Karachalios I, Papatheou E, Pastrikakis V. XR-CareerAssist, an immersive AI-powered platform for personalised career guidance using extended reality and multimodal artificial intelligence [version 1, peer review awaiting completion]. Open Research Europe. 2026, 6, 140"
+  doi: 10.12688/openreseurope.22953.1
+  title: "XR-CareerAssist: An Immersive AI-Powered Platform for Personalised Career Guidance Using Extended Reality and Multimodal Artificial Intelligence"
+  year: 2026
+  first_author: Tantaroudas
+tantaroudas2026salento:
+  text: "Tantaroudas ND, McCracken AJ, Karachalios I, Papatheou E, Pastrikakis V. Transforming career development through immersive and data-driven solutions. In De Paolis LT, Arpaia P, Sacco M, editors. Extended Reality, XR Salento 2025. Lecture Notes in Computer Science, vol 15742. Springer, Cham, 2026"
+  doi: 10.1007/978-3-031-97778-7_7
+  title: "Transforming Career Development Through Immersive and Data-Driven Solutions"
+  year: 2026
+  first_author: Tantaroudas
+tantaroudas2026arxiv:
+  text: "Tantaroudas ND, McCracken AJ, Karachalios I, Papatheou E, Pastrikakis V. XR-CareerAssist, an immersive platform for personalised career guidance leveraging extended reality and multimodal AI. arXiv preprint arXiv 2604.06901. 2026"
+  doi: 10.48550/arXiv.2604.06901
+  title: "XR-CareerAssist: An Immersive Platform for Personalised Career Guidance Leveraging Extended Reality and Multimodal AI"
+  year: 2026
+  first_author: Tantaroudas
+tantaroudas2026interact:
+  text: "Tantaroudas ND, McCracken AJ, Karachalios I, Papatheou E. INTERACT, AI-powered extended reality platform for inclusive communication with real-time sign language translation and sentiment analysis. Open Research Europe. 2026, 6, 71"
+  doi: 10.12688/openreseurope.23201.1
+  title: "INTERACT: AI-powered extended reality platform for inclusive communication with real-time sign language translation and sentiment analysis"
+  year: 2026
+  first_author: Tantaroudas
+tantaroudas2026language:
+  text: "Tantaroudas ND, McCracken AJ, Karachalios I, Papatheou E. AI-based services for inclusive language learning in immersive XR environments, speech translation, and sign language integration. Open Research Europe. 2026, 6, 72"
+  doi: 10.12688/openreseurope.23214.2
+  title: "AI-based services for inclusive language learning in immersive XR environments: Speech translation, and sign language integration"
+  year: 2026
+  first_author: Tantaroudas
+leung2022:
+  text: "Leung SA. New frontiers in computer-assisted career guidance systems (CACGS), implications from career construction theory. Frontiers in Psychology. 2022, 13, 786232"
+  doi: 10.3389/fpsyg.2022.786232
+  title: "New Frontiers in Computer-Assisted Career Guidance Systems (CACGS): Implications From Career Construction Theory"
+  year: 2022
+  first_author: Leung
+savickas2012:
+  text: "Savickas ML. Life design, a paradigm for career intervention in the 21st century. Journal of Counseling and Development. 2012, 90(1), 13-19"
+  doi: 10.1111/j.1556-6676.2012.00002.x
+  title: "Life Design: A Paradigm for Career Intervention in the 21st Century"
+  year: 2012
+  first_author: Savickas
+garcia2021:
+  text: "Garcia Estrada J, Prasolova-Førland E. Developing VR content for digital career guidance in the context of the pandemic. In 2021 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW). IEEE, 2021, pp. 38-43"
+  doi: 10.1109/VRW52623.2021.00013
+  title: "Developing VR content for digital career guidance in the context of the pandemic"
+  year: 2021
+  first_author: Estrada
+josegarcia2023:
+  text: "José-García A, Sneyd A, Melro A, Ollagnier A, Tarling G, Zhang H, Stevenson M, Everson R, Arthur R. C3-IoC, a career guidance system for assessing student skills using machine learning and network visualisation. International Journal of Artificial Intelligence in Education. 2023, 33(4), 1092-1119"
+  doi: 10.1007/s40593-022-00317-y
+  title: "C3-IoC: A Career Guidance System for Assessing Student Skills using Machine Learning and Network Visualisation"
+  year: 2023
+  first_author: José-García
+schmidt2008:
+  text: "Schmidt M. The Sankey diagram in energy and material flow management, part I, history. Journal of Industrial Ecology. 2008, 12(1), 82-94"
+  doi: 10.1111/j.1530-9290.2008.00004.x
+  title: "The Sankey Diagram in Energy and Material Flow Management: Part I: History"
+  year: 2008
+  first_author: Schmidt
+riehmann2005:
+  text: "Riehmann P, Hanfler M, Froehlich B. Interactive Sankey diagrams. In IEEE Symposium on Information Visualization (InfoVis 2005). IEEE, 2005, pp. 233-240"
+  doi: 10.1109/INFVIS.2005.1532152
+  title: "Interactive Sankey diagrams"
+  year: 2005
+  first_author: Riehmann
+zarate2018:
+  text: "Zarate DC, Le Bodic P, Dwyer T, Gange G, Stuckey P. Optimal Sankey diagrams via integer programming. In 2018 IEEE Pacific Visualization Symposium (PacificVis). IEEE, 2018, pp. 135-139"
+  doi: 10.1109/PacificVis.2018.00025
+  title: "Optimal Sankey Diagrams Via Integer Programming"
+  year: 2018
+  first_author: Zarate
+cleveland1984:
+  text: "Cleveland WS, McGill R. Graphical perception, theory, experimentation, and application to the development of graphical methods. Journal of the American Statistical Association. 1984, 79(387), 531-554"
+  doi: 10.1080/01621459.1984.10478080
+  title: "Graphical Perception: Theory, Experimentation, and Application to the Development of Graphical Methods"
+  year: 1984
+  first_author: Cleveland
+kahou2018:
+  text: "Kahou SE, Michalski V, Atkinson A, Kádár Á, Trischler A, Bengio Y. FigureQA, an annotated figure dataset for visual reasoning. arXiv preprint arXiv 1710.07300. 2017"
+  doi: 10.48550/arXiv.1710.07300
+  title: "FigureQA: An Annotated Figure Dataset for Visual Reasoning"
+  year: 2017
+  first_author: Kahou
+kafle2018:
+  text: "Kafle K, Price B, Cohen S, Kanan C. DVQA, understanding data visualizations via question answering. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, 2018, pp. 5648-5656"
+  doi: 10.1109/CVPR.2018.00592
+  title: "DVQA: Understanding Data Visualizations via Question Answering"
+  year: 2018
+  first_author: Kafle
+methani2020:
+  text: "Methani N, Ganguly P, Khapra MM, Kumar P. PlotQA, reasoning over scientific plots. In Proceedings of the IEEE Winter Conference on Applications of Computer Vision (WACV). IEEE, 2020, pp. 1516-1525"
+  doi: 10.1109/WACV45572.2020.9093523
+  title: "PlotQA: Reasoning over Scientific Plots"
+  year: 2020
+  first_author: Methani
+masry2022:
+  text: "Masry A, Long DX, Tan JQ, Joty S, Hoque E. ChartQA, a benchmark for question answering about charts with visual and logical reasoning. In Findings of the Association for Computational Linguistics, ACL 2022. Association for Computational Linguistics, 2022, pp. 2263-2279"
+  doi: 10.18653/v1/2022.findings-acl.177
+  title: "ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning"
+  year: 2022
+  first_author: Masry
+liu2023matcha:
+  text: "Liu F, Piccinno F, Krichene S, Pang C, Lee K, Joshi M, Altun Y, Collier N, Eisenschlos J. MatCha, enhancing visual language pretraining with math reasoning and chart derendering. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1, Long Papers). Association for Computational Linguistics, 2023, pp. 12756-12770"
+  doi: 10.18653/v1/2023.acl-long.714
+  title: "MatCha: Enhancing Visual Language Pretraining with Math Reasoning and Chart Derendering"
+  year: 2023
+  first_author: Liu
+lee2023pix2struct:
+  text: "Lee K, Joshi M, Turc IR, Hu H, Liu F, Eisenschlos JM, Khandelwal U, Shaw P, Chang MW, Toutanova K. Pix2Struct, screenshot parsing as pretraining for visual language understanding. In Proceedings of the 40th International Conference on Machine Learning (ICML 2023). PMLR, 2023, vol 202, pp. 18893-18912"
+  url: https://proceedings.mlr.press/v202/lee23g.html
+  title: "Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding"
+  year: 2023
+  first_author: Lee
+li2022blip:
+  text: "Li J, Li D, Xiong C, Hoi S. BLIP, bootstrapping language-image pre-training for unified vision-language understanding and generation. In Proceedings of the 39th International Conference on Machine Learning (ICML 2022). PMLR, 2022, vol 162, pp. 12888-12900"
+  url: https://proceedings.mlr.press/v162/li22n.html
+  title: "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation"
+  year: 2022
+  first_author: Li
+marafioti2025:
+  text: "Marafioti A, Zohar O, Farré M, Noyan M, Bakouch E, Cuenca P, Zakka C, Ben Allal L, Lozhkov A, Tazi N, et al. SmolVLM, redefining small and efficient multimodal models. arXiv preprint arXiv 2504.05299. 2025"
+  doi: 10.48550/arXiv.2504.05299
+  title: "SmolVLM: Redefining small and efficient multimodal models"
+  year: 2025
+  first_author: Marafioti
+qwen2025:
+  text: "Qwen Team (Yang A, Yang B, Zhang B, Hui B, Zheng B, Yu B, et al.). Qwen2.5 technical report. arXiv preprint arXiv 2412.15115. 2024"
+  doi: 10.48550/arXiv.2412.15115
+  title: "Qwen2.5 Technical Report"
+  year: 2024
+  first_author: Qwen
+chen2023table:
+  text: "Chen W. Large language models are few(1)-shot table reasoners. In Findings of the Association for Computational Linguistics, EACL 2023. Association for Computational Linguistics, 2023, pp. 1120-1130"
+  doi: 10.18653/v1/2023.findings-eacl.83
+  title: "Large Language Models are few(1)-shot Table Reasoners"
+  year: 2023
+  first_author: Chen
+li2023hallucination:
+  text: "Li Y, Du Y, Zhou K, Wang J, Zhao WX, Wen JR. Evaluating object hallucination in large vision-language models. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing. Association for Computational Linguistics, 2023, pp. 292-305"
+  doi: 10.18653/v1/2023.emnlp-main.20
+  title: "Evaluating Object Hallucination in Large Vision-Language Models"
+  year: 2023
+  first_author: Li
+lundgard2022:
+  text: "Lundgard A, Satyanarayan A. Accessible visualization via natural language descriptions, a four-level model of semantic content. IEEE Transactions on Visualization and Computer Graphics. 2022, 28(1), 1073-1083"
+  doi: 10.1109/TVCG.2021.3114770
+  title: "Accessible Visualization via Natural Language Descriptions: A Four-Level Model of Semantic Content"
+  year: 2022
+  first_author: Lundgard
+lloyd1982:
+  text: "Lloyd S. Least squares quantization in PCM. IEEE Transactions on Information Theory. 1982, 28(2), 129-137"
+  doi: 10.1109/TIT.1982.1056489
+  title: "Least squares quantization in PCM"
+  year: 1982
+  first_author: Lloyd
+sener2018:
+  text: "Sener O, Savarese S. Active learning for convolutional neural networks, a core-set approach. In International Conference on Learning Representations (ICLR 2018). 2018. arXiv 1708.00489"
+  doi: 10.48550/arXiv.1708.00489
+  title: "Active Learning for Convolutional Neural Networks: A Core-Set Approach"
+  year: 2017
+  first_author: Sener
+wolf2020:
+  text: "Wolf T, Debut L, Sanh V, Chaumond J, Delangue C, Moi A, Cistac P, Rault T, Louf R, Funtowicz M, et al. Transformers, state-of-the-art natural language processing. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing, System Demonstrations. Association for Computational Linguistics, 2020, pp. 38-45"
+  doi: 10.18653/v1/2020.emnlp-demos.6
+  title: "Transformers: State-of-the-Art Natural Language Processing"
+  year: 2020
+  first_author: Wolf
+hunter2007:
+  text: "Hunter JD. Matplotlib, a 2D graphics environment. Computing in Science and Engineering. 2007, 9(3), 90-95"
+  doi: 10.1109/MCSE.2007.55
+  title: "Matplotlib: A 2D Graphics Environment"
+  year: 2007
+  first_author: Hunter
+pedregosa2011:
+  text: "Pedregosa F, Varoquaux G, Gramfort A, Michel V, Thirion B, Grisel O, Blondel M, Prettenhofer P, Weiss R, Dubourg V, et al. Scikit-learn, machine learning in Python. Journal of Machine Learning Research. 2011, 12, 2825-2830"
+  url: https://jmlr.org/papers/v12/pedregosa11a.html
+  title: "Scikit-learn: Machine Learning in Python"
+  year: 2011
+  first_author: Pedregosa
+loshchilov2019:
+  text: "Loshchilov I, Hutter F. Decoupled weight decay regularization. In International Conference on Learning Representations (ICLR 2019). 2019. arXiv 1711.05101"
+  doi: 10.48550/arXiv.1711.05101
+  title: "Decoupled Weight Decay Regularization"
+  year: 2017
+  first_author: Loshchilov
+efron1979:
+  text: "Efron B. Bootstrap methods, another look at the jackknife. The Annals of Statistics. 1979, 7(1), 1-26"
+  doi: 10.1214/aos/1176344552
+  title: "Bootstrap Methods: Another Look at the Jackknife"
+  year: 1979
+  first_author: Efron
+sankeyqadata:
+  text: "Tantaroudas ND, McCracken AJ, Karachalios I, Papatheou E, Pastrikakis V. SankeyQA, career-map Sankey diagrams with exact answers, benchmark data, model replies and code (version 1.0.0) [Data set and software]. Zenodo. 2026"
+  doi: "{{ZENODO_DOI}}"
+  pending: true
+  title: "SankeyQA"
+  year: 2026
+  first_author: Tantaroudas
