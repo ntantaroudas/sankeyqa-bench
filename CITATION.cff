@@ -23,9 +23,6 @@ authors:
   - family-names: Papatheou
     given-names: Evangelos
     affiliation: "University of Exeter, Exeter, United Kingdom"
-  - family-names: Pastrikakis
-    given-names: Vasileios
-    affiliation: "CVCOSMOS Ltd, Exeter, United Kingdom"
 license: Apache-2.0
 repository-code: "https://github.com/ntantaroudas/sankeyqa-bench"
 doi: "10.5281/zenodo.23449063"
