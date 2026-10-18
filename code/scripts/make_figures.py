@@ -44,7 +44,7 @@ from sankeyqa.render import render, RenderStyle  # noqa: E402
 OUT = os.path.join(ROOT, "figures")
 PX_FULL = 1770                       # 149.9 mm at 300 dpi
 FONT, FS = "Liberation Sans", 8.0
-AUTHORS = "N. D. Tantaroudas, A. J. McCracken, I. Karachalios, E. Papatheou, V. Pastrikakis"
+AUTHORS = "N. D. Tantaroudas, A. J. McCracken, I. Karachalios, E. Papatheou"
 CREATOR = f"matplotlib {matplotlib.__version__} (scripts/make_figures.py)"
 SRGB = ImageCms.ImageCmsProfile(ImageCms.createProfile("sRGB")).tobytes()
 INK, INK2, GRID, AXIS = "#0b0b0b", "#52514e", "#e1e0d9", "#c3c2b7"
