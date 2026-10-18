@@ -1,0 +1,413 @@
+{
+ "config": {
+  "map_type": "industry",
+  "start_role": "Specialist",
+  "years_experience": 10,
+  "industry": "Computer Manufacturing",
+  "age_group": "31-40",
+  "target_role": "Director",
+  "n_profiles": 240,
+  "max_nodes": 7
+ },
+ "stages": [
+  "Now",
+  "2 years",
+  "5 years",
+  "10 years"
+ ],
+ "n_profiles": 240,
+ "nodes": [
+  [
+   {
+    "label": "Computer Manufacturing",
+    "count": 240
+   }
+  ],
+  [
+   {
+    "label": "Computer Manufacturing",
+    "count": 203
+   },
+   {
+    "label": "Software Products",
+    "count": 11
+   },
+   {
+    "label": "Telecommunications",
+    "count": 11
+   },
+   {
+    "label": "IT Services",
+    "count": 6
+   },
+   {
+    "label": "Public Sector",
+    "count": 5
+   },
+   {
+    "label": "Manufacturing",
+    "count": 3
+   },
+   {
+    "label": "Healthcare",
+    "count": 1
+   }
+  ],
+  [
+   {
+    "label": "Computer Manufacturing",
+    "count": 173
+   },
+   {
+    "label": "Software Products",
+    "count": 20
+   },
+   {
+    "label": "Telecommunications",
+    "count": 16
+   },
+   {
+    "label": "Manufacturing",
+    "count": 15
+   },
+   {
+    "label": "IT Services",
+    "count": 6
+   },
+   {
+    "label": "Public Sector",
+    "count": 6
+   },
+   {
+    "label": "Healthcare",
+    "count": 4
+   }
+  ],
+  [
+   {
+    "label": "Computer Manufacturing",
+    "count": 129
+   },
+   {
+    "label": "Manufacturing",
+    "count": 28
+   },
+   {
+    "label": "Telecommunications",
+    "count": 27
+   },
+   {
+    "label": "Software Products",
+    "count": 22
+   },
+   {
+    "label": "Public Sector",
+    "count": 13
+   },
+   {
+    "label": "Healthcare",
+    "count": 11
+   },
+   {
+    "label": "IT Services",
+    "count": 10
+   }
+  ]
+ ],
+ "links": [
+  {
+   "stage": 0,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 203
+  },
+  {
+   "stage": 0,
+   "source": "Computer Manufacturing",
+   "target": "Software Products",
+   "count": 11
+  },
+  {
+   "stage": 0,
+   "source": "Computer Manufacturing",
+   "target": "Telecommunications",
+   "count": 11
+  },
+  {
+   "stage": 0,
+   "source": "Computer Manufacturing",
+   "target": "IT Services",
+   "count": 6
+  },
+  {
+   "stage": 0,
+   "source": "Computer Manufacturing",
+   "target": "Public Sector",
+   "count": 5
+  },
+  {
+   "stage": 0,
+   "source": "Computer Manufacturing",
+   "target": "Manufacturing",
+   "count": 3
+  },
+  {
+   "stage": 0,
+   "source": "Computer Manufacturing",
+   "target": "Healthcare",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 172
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Manufacturing",
+   "count": 12
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "Software Products",
+   "count": 10
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Software Products",
+   "count": 9
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 9
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Telecommunications",
+   "count": 7
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 5
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Healthcare",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 2
+  },
+  {
+   "stage": 1,
+   "source": "Computer Manufacturing",
+   "target": "Public Sector",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Healthcare",
+   "target": "Healthcare",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "IT Services",
+   "target": "Healthcare",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Software Products",
+   "target": "IT Services",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 1,
+   "source": "Telecommunications",
+   "target": "Software Products",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 123
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Software Products",
+   "count": 16
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Manufacturing",
+   "count": 14
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Manufacturing",
+   "count": 13
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Telecommunications",
+   "count": 12
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Telecommunications",
+   "count": 11
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Public Sector",
+   "count": 10
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "IT Services",
+   "count": 6
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Healthcare",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Computer Manufacturing",
+   "target": "Software Products",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Healthcare",
+   "target": "Healthcare",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "IT Services",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Computer Manufacturing",
+   "count": 4
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Healthcare",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Public Sector",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Telecommunications",
+   "count": 2
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Software Products",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "IT Services",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Computer Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Manufacturing",
+   "target": "Software Products",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Public Sector",
+   "target": "Telecommunications",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Computer Manufacturing",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Software Products",
+   "target": "Healthcare",
+   "count": 1
+  },
+  {
+   "stage": 2,
+   "source": "Telecommunications",
+   "target": "Public Sector",
+   "count": 1
+  }
+ ]
+}
