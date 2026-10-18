@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use SankeyQA, please cite the accompanying article and this software and data."
+title: "SankeyQA, career-map Sankey diagrams with exact answers for testing vision-language models"
+version: 1.0.0
+date-released: 2026-10-17
+abstract: >-
+  An open benchmark of 600 artificial career cohorts (generated only to demonstrate and test the technology, not real data) drawn as career-map Sankey diagrams in the style of the
+  XR-CareerAssist platform, with 6,560 questions whose answers are computed exactly from the underlying flow
+  tables, twelve drawing styles, the code that generates the benchmark, evaluates small vision-language and
+  language models and fine-tunes BLIP, and every model reply and result of the accompanying article.
+authors:
+  - family-names: Tantaroudas
+    given-names: Nikolaos D.
+    affiliation: "Institute of Communication and Computer Systems (ICCS), Athens, Greece"
+    email: nikolaos.tantaroudas@iccs.gr
+    orcid: "https://orcid.org/0000-0001-6727-1014"
+  - family-names: McCracken
+    given-names: Andrew J.
+    affiliation: "DASKALOS-APPS, Péronnas, France"
+  - family-names: Karachalios
+    given-names: Ilias
+    affiliation: "University of Thessaly, Larissa, Greece"
+  - family-names: Papatheou
+    given-names: Evangelos
+    affiliation: "University of Exeter, Exeter, United Kingdom"
+  - family-names: Pastrikakis
+    given-names: Vasileios
+    affiliation: "CVCOSMOS Ltd, Exeter, United Kingdom"
+license: Apache-2.0
+repository-code: "https://github.com/ntantaroudas/sankeyqa-bench"
+doi: "10.5281/zenodo.23449063"
+keywords:
+  - Sankey diagram
+  - vision-language model
+  - chart question answering
+  - career guidance
+  - extended reality
+  - benchmark
+  - fine-tuning
+  - synthetic data
+references:
+  - type: article
+    title: "XR-CareerAssist: An Immersive AI-Powered Platform for Personalised Career Guidance Using Extended Reality and Multimodal Artificial Intelligence"
+    authors:
+      - family-names: Tantaroudas
+        given-names: Nikolaos D.
+    journal: "Open Research Europe"
+    volume: 6
+    start: 140
+    year: 2026
+    doi: "10.12688/openreseurope.22953.1"

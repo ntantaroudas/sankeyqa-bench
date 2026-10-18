@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+results/finetune_runs/*/model.safetensors
+results/blip_train_features.pt
+*.aux
+*.log
+*.out
