@@ -224,7 +224,7 @@ This work was supported by the European Union's Horizon Europe research and inno
 
 ## Declaration of generative AI and AI-assisted technologies in the writing process
 
-During the preparation of this work the authors used an AI assistant (Claude, Anthropic) to help write the benchmark and analysis code, run the experiments and draft the manuscript text in plain language. The authors reviewed, tested and edited all code and text, verified all references against the records of their publishers, and take full responsibility for the content of the publication.
+During the preparation of this work the authors used an AI assistant (Claude, Anthropic) to help draft the manuscript text. The authors reviewed all text, verified all references against the records of their publishers, and take full responsibility for the content of the publication.
 
 ## Acknowledgements
 
