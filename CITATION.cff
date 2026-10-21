@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use SankeyQA, please cite the accompanying article and this software and data."
 title: "SankeyQA, career-map Sankey diagrams with exact answers for testing vision-language models"
-version: 1.0.0
-date-released: 2026-10-17
+version: 1.1.0
+date-released: 2026-10-21
 abstract: >-
   An open benchmark of 600 artificial career cohorts (generated only to demonstrate and test the technology, not real data) drawn as career-map Sankey diagrams in the style of the
   XR-CareerAssist platform, with 6,560 questions whose answers are computed exactly from the underlying flow
@@ -25,7 +25,7 @@ authors:
     affiliation: "University of Exeter, Exeter, United Kingdom"
 license: Apache-2.0
 repository-code: "https://github.com/ntantaroudas/sankeyqa-bench"
-doi: "10.5281/zenodo.23449063"
+doi: "10.5281/zenodo.23530188"
 keywords:
   - Sankey diagram
   - vision-language model
