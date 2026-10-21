@@ -6,7 +6,7 @@ OUT=release/sankeyqa-bench
 rm -rf "$OUT" && mkdir -p "$OUT"
 cp README.md LICENSE LICENSE-DATA.md CITATION.cff .zenodo.json requirements.txt "$OUT"/
 cp -r code "$OUT"/ && find "$OUT/code" -name __pycache__ -o -name .pytest_cache | xargs rm -rf
-cp -r data figures "$OUT"/
+cp -r data figures extended_data "$OUT"/
 mkdir -p "$OUT/results/finetune_runs"
 cp -r results/raw results/tables results/logs results/key_numbers.json results/model_versions.json "$OUT/results/"
 for d in results/finetune_runs/*/; do n=$(basename "$d"); mkdir -p "$OUT/results/finetune_runs/$n"; cp "$d/train_info.json" "$OUT/results/finetune_runs/$n/"; done
@@ -26,5 +26,5 @@ results/blip_train_features.pt
 *.out
 G
 mv .gitignore.tmp "$OUT/.gitignore"
-(cd release && rm -f sankeyqa-bench-v1.0.0.zip && zip -qr sankeyqa-bench-v1.0.0.zip sankeyqa-bench)
-du -sh "$OUT" release/sankeyqa-bench-v1.0.0.zip
+(cd release && rm -f sankeyqa-bench-v1.1.0.zip && zip -qr sankeyqa-bench-v1.1.0.zip sankeyqa-bench)
+du -sh "$OUT" release/sankeyqa-bench-v1.1.0.zip
