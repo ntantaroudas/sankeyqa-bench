@@ -1,0 +1,13 @@
+Style,Description,Background,Text size (relative),Numbers shown,Colours,Longer side (pixels),Title with the total,Order of the groups,Band opacity,Images,Maps drawn,Used in
+default,Default drawing,white,1.0,beside each group,one colour per group,1024,yes,largest at the top,0.55,600,all 600 cohorts,"main evaluation, fine-tuning and drawing-style test"
+transparent,Transparent background,transparent,1.0,beside each group,one colour per group,1024,yes,largest at the top,0.55,60,the first 60 test cohorts,drawing-style test
+no_values,No numbers,white,1.0,none,one colour per group,1024,yes,largest at the top,0.55,60,the first 60 test cohorts,drawing-style test
+all_values,Numbers also on the bands,white,1.0,beside each group and on every band,one colour per group,1024,yes,largest at the top,0.55,60,the first 60 test cohorts,drawing-style test
+small_font,Small text,white,0.7,beside each group,one colour per group,1024,yes,largest at the top,0.55,60,the first 60 test cohorts,drawing-style test
+large_font,Large text,white,1.4,beside each group,one colour per group,1024,yes,largest at the top,0.55,60,the first 60 test cohorts,drawing-style test
+mono,Shades of blue,white,1.0,beside each group,shades of blue,1024,yes,largest at the top,0.55,60,the first 60 test cohorts,drawing-style test
+px512,512 pixels wide,white,1.0,beside each group,one colour per group,512,yes,largest at the top,0.55,60,the first 60 test cohorts,drawing-style test
+px768,768 pixels wide,white,1.0,beside each group,one colour per group,768,yes,largest at the top,0.55,60,the first 60 test cohorts,drawing-style test
+px1536,"1,536 pixels wide",white,1.0,beside each group,one colour per group,1536,yes,largest at the top,0.55,60,the first 60 test cohorts,drawing-style test
+fixed_order,Fixed order of the groups,white,1.0,beside each group,one colour per group,1024,yes,fixed ladder order,0.55,60,the first 60 test cohorts,drawing-style test
+no_title,No title,white,1.0,beside each group,one colour per group,1024,no,largest at the top,0.55,60,the first 60 test cohorts,drawing-style test
