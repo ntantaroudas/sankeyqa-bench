@@ -1,0 +1,38 @@
+| Reader | Style | Questions | Correct (%) | 95% interval (%) | Change from the default (points) | 95% interval of the change (points) |
+|---|---|---|---|---|---|---|
+| BLIP-VQA fine-tuned on 400 maps | Default drawing | 220 | 55.5 | 50.9 to 60.5 |  |  |
+| BLIP-VQA fine-tuned on 400 maps | Transparent background | 220 | 45.9 | 41.4 to 50.5 | -9.5 | -13.6 to -5.5 |
+| BLIP-VQA fine-tuned on 400 maps | No numbers | 220 | 53.6 | 48.2 to 59.1 | -1.8 | -5.5 to +0.9 |
+| BLIP-VQA fine-tuned on 400 maps | Numbers also on the bands | 220 | 55.5 | 50.0 to 61.4 | +0.0 | -1.8 to +1.8 |
+| BLIP-VQA fine-tuned on 400 maps | Small text | 220 | 41.8 | 35.9 to 47.7 | -13.6 | -18.6 to -8.6 |
+| BLIP-VQA fine-tuned on 400 maps | Large text | 220 | 43.6 | 38.2 to 48.6 | -11.8 | -15.9 to -8.2 |
+| BLIP-VQA fine-tuned on 400 maps | Shades of blue | 220 | 52.7 | 46.4 to 59.5 | -2.7 | -5.5 to +0.5 |
+| BLIP-VQA fine-tuned on 400 maps | 512 pixels wide | 220 | 54.5 | 49.5 to 60.0 | -0.9 | -2.7 to +0.9 |
+| BLIP-VQA fine-tuned on 400 maps | 768 pixels wide | 220 | 56.8 | 51.8 to 62.3 | +1.4 | -0.5 to +3.2 |
+| BLIP-VQA fine-tuned on 400 maps | 1,536 pixels wide | 220 | 55.5 | 51.4 to 60.0 | +0.0 | -1.4 to +1.4 |
+| BLIP-VQA fine-tuned on 400 maps | Fixed order of the groups | 220 | 51.8 | 45.5 to 58.2 | -3.6 | -7.3 to +0.0 |
+| BLIP-VQA fine-tuned on 400 maps | No title | 220 | 44.5 | 39.5 to 49.5 | -10.9 | -12.7 to -9.5 |
+| BLIP-VQA (not fine-tuned) | Default drawing | 220 | 11.4 | 8.2 to 14.5 |  |  |
+| BLIP-VQA (not fine-tuned) | Transparent background | 220 | 10.9 | 7.7 to 13.6 | -0.5 | -3.2 to +2.3 |
+| BLIP-VQA (not fine-tuned) | No numbers | 220 | 10.9 | 7.7 to 14.1 | -0.5 | -1.4 to +0.0 |
+| BLIP-VQA (not fine-tuned) | Numbers also on the bands | 220 | 10.9 | 7.7 to 14.1 | -0.5 | -1.4 to +0.0 |
+| BLIP-VQA (not fine-tuned) | Small text | 220 | 10.5 | 7.3 to 13.6 | -0.9 | -2.3 to +0.0 |
+| BLIP-VQA (not fine-tuned) | Large text | 220 | 13.2 | 9.1 to 17.3 | +1.8 | -0.5 to +4.5 |
+| BLIP-VQA (not fine-tuned) | Shades of blue | 220 | 10.0 | 7.3 to 13.2 | -1.4 | -2.7 to +0.0 |
+| BLIP-VQA (not fine-tuned) | 512 pixels wide | 220 | 11.8 | 8.6 to 15.0 | +0.5 | +0.0 to +1.4 |
+| BLIP-VQA (not fine-tuned) | 768 pixels wide | 220 | 11.4 | 8.2 to 14.5 | +0.0 | +0.0 to +0.0 |
+| BLIP-VQA (not fine-tuned) | 1,536 pixels wide | 220 | 11.4 | 8.2 to 14.5 | +0.0 | +0.0 to +0.0 |
+| BLIP-VQA (not fine-tuned) | Fixed order of the groups | 220 | 10.9 | 7.7 to 14.1 | -0.5 | -1.4 to +0.0 |
+| BLIP-VQA (not fine-tuned) | No title | 220 | 10.9 | 7.7 to 14.5 | -0.5 | -1.8 to +0.9 |
+| SmolVLM-256M, one view | Default drawing | 220 | 34.1 | 29.5 to 38.6 |  |  |
+| SmolVLM-256M, one view | Transparent background | 220 | 30.9 | 24.5 to 36.8 | -3.2 | -10.5 to +4.1 |
+| SmolVLM-256M, one view | No numbers | 220 | 30.9 | 25.9 to 35.5 | -3.2 | -8.2 to +1.4 |
+| SmolVLM-256M, one view | Numbers also on the bands | 220 | 31.4 | 26.8 to 36.4 | -2.7 | -7.3 to +1.4 |
+| SmolVLM-256M, one view | Small text | 220 | 33.2 | 27.3 to 39.1 | -0.9 | -9.1 to +6.4 |
+| SmolVLM-256M, one view | Large text | 220 | 26.8 | 21.4 to 32.7 | -7.3 | -12.3 to -2.3 |
+| SmolVLM-256M, one view | Shades of blue | 220 | 35.0 | 31.4 to 38.6 | +0.9 | -3.2 to +4.5 |
+| SmolVLM-256M, one view | 512 pixels wide | 220 | 31.4 | 26.8 to 36.4 | -2.7 | -6.4 to +0.9 |
+| SmolVLM-256M, one view | 768 pixels wide | 220 | 32.7 | 27.7 to 37.7 | -1.4 | -5.5 to +2.7 |
+| SmolVLM-256M, one view | 1,536 pixels wide | 220 | 34.1 | 29.1 to 39.1 | +0.0 | -2.7 to +2.7 |
+| SmolVLM-256M, one view | Fixed order of the groups | 220 | 31.4 | 26.8 to 36.4 | -2.7 | -8.2 to +3.2 |
+| SmolVLM-256M, one view | No title | 220 | 35.5 | 30.5 to 40.0 | +1.4 | -5.5 to +7.7 |
